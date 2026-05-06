@@ -1,0 +1,4790 @@
+[
+  {
+    "id": 1,
+    "slug": "all-airline-everything-two-cylinder-paintings-shown-1968",
+    "title": "All Airline Everything (two cylinder paintings shown)",
+    "year": "1968",
+    "decade": 60,
+    "medium": "installation",
+    "description": "acrylic lacquer on plexiglass",
+    "dimensions": "",
+    "image_root": "in68_0029",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 233
+    },
+    "large": {
+      "width": 750,
+      "height": 474
+    },
+    "available": false
+  },
+  {
+    "id": 2,
+    "slug": "2-side-slant-1980",
+    "title": "2-Side Slant",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "acrylic, birch plywood, mirror",
+    "dimensions": "31.25\\\"h X 25.25\\\"w X 5\\\"d",
+    "image_root": "sc80_0146",
+    "image2_root": null,
+    "small": {
+      "width": 288,
+      "height": 329
+    },
+    "large": {
+      "width": 437,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 3,
+    "slug": "above-beyond-1996",
+    "title": "Above & Beyond",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "12\\\"h X 24\\\"w",
+    "image_root": "pa96_0141",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 184
+    },
+    "large": {
+      "width": 750,
+      "height": 374
+    },
+    "available": true
+  },
+  {
+    "id": 4,
+    "slug": "abridgement-1981",
+    "title": "Abridgement",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "31\\\"h X 66\\\"w",
+    "image_root": "pa81_0041",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 187
+    },
+    "large": {
+      "width": 750,
+      "height": 379
+    },
+    "available": false
+  },
+  {
+    "id": 5,
+    "slug": "act-of-squared-reflection-1976",
+    "title": "Act of Squared Reflection",
+    "year": "1976-80",
+    "decade": 80,
+    "medium": "installation",
+    "description": "mirror, wood, acrylic",
+    "dimensions": "60\\\"h X 120\\\"w X 120\\\"d",
+    "image_root": "in80_0015",
+    "image2_root": null,
+    "small": {
+      "width": 330,
+      "height": 287
+    },
+    "large": {
+      "width": 576,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 6,
+    "slug": "all-airline-everything-1967",
+    "title": "All Airline Everything",
+    "year": "1967",
+    "decade": 60,
+    "medium": "painting",
+    "description": "acrylic lacquer on plexiglass",
+    "dimensions": "72\\\"h X 2\\\" diam.",
+    "image_root": "pa67_0014",
+    "image2_root": null,
+    "small": {
+      "width": 191,
+      "height": 496
+    },
+    "large": {
+      "width": 192,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 7,
+    "slug": "central-contrary-1982",
+    "title": "Central Contrary",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on aluminum with wood",
+    "dimensions": "48\\\"h X 49.5\\\"w",
+    "image_root": "pa82_0049",
+    "image2_root": null,
+    "small": {
+      "width": 320,
+      "height": 296
+    },
+    "large": {
+      "width": 541,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 8,
+    "slug": "change-of-event-1982",
+    "title": "Change of Event",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on wood with mirror",
+    "dimensions": "84\\\"h X 73\\\"w",
+    "image_root": "pa82_0048",
+    "image2_root": null,
+    "small": {
+      "width": 284,
+      "height": 334
+    },
+    "large": {
+      "width": 425,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 9,
+    "slug": "com-69-detail-1969",
+    "title": "Com 69 (detail)",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin fiberglass",
+    "dimensions": "12\\\"h X 18\\\"w",
+    "image_root": "pa69_0025",
+    "image2_root": null,
+    "small": {
+      "width": 244,
+      "height": 389
+    },
+    "large": {
+      "width": 313,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 10,
+    "slug": "complex-square-1-1980",
+    "title": "Complex Square 1",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "iridescent acrylic, wood, mirror",
+    "dimensions": "29\\\"h X 27\\\"w X 3.5\\\"d",
+    "image_root": "sc80_0144",
+    "image2_root": null,
+    "small": {
+      "width": 324,
+      "height": 292
+    },
+    "large": {
+      "width": 554,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 11,
+    "slug": "image-data-1982",
+    "title": "Image Data",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas with wood",
+    "dimensions": "23\\\"h X 29\\\"w",
+    "image_root": "pa82_0052",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 230
+    },
+    "large": {
+      "width": 750,
+      "height": 466
+    },
+    "available": false
+  },
+  {
+    "id": 12,
+    "slug": "delandes-plovercrest-1989",
+    "title": "Delandes Plovercrest",
+    "year": "1989",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl-film on PVC",
+    "dimensions": "16.5\\\"h X 14\\\"w",
+    "image_root": "pa89_0008",
+    "image2_root": null,
+    "small": {
+      "width": 284,
+      "height": 333
+    },
+    "large": {
+      "width": 426,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 13,
+    "slug": "dimensional-deviant-1981",
+    "title": "Dimensional Deviant",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "sprayed acrylic on canvas",
+    "dimensions": "65\\\"h X 56\\\"w",
+    "image_root": "pa81_0045",
+    "image2_root": null,
+    "small": {
+      "width": 286,
+      "height": 332
+    },
+    "large": {
+      "width": 430,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 14,
+    "slug": "dimensional-variant-1981",
+    "title": "Dimensional Variant",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "sprayed acrylic on canvas",
+    "dimensions": "59\\\"h X 67\\\"w",
+    "image_root": "pa81_0044",
+    "image2_root": null,
+    "small": {
+      "width": 328,
+      "height": 289
+    },
+    "large": {
+      "width": 567,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 15,
+    "slug": "dimensional-warp-1981",
+    "title": "Dimensional Warp",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "sprayed acrylic on canvas",
+    "dimensions": "65\\\"h X 56\\\"w",
+    "image_root": "pa81_0046",
+    "image2_root": null,
+    "small": {
+      "width": 286,
+      "height": 332
+    },
+    "large": {
+      "width": 430,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 16,
+    "slug": "disc-driver-1991",
+    "title": "Disc Driver",
+    "year": "1991",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa91_0084",
+    "image2_root": null,
+    "small": {
+      "width": 309,
+      "height": 307
+    },
+    "large": {
+      "width": 503,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 17,
+    "slug": "double-dutch-1996",
+    "title": "Double Dutch",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "48\\\"h X 24\\\"w",
+    "image_root": "pa96_0104",
+    "image2_root": null,
+    "small": {
+      "width": 219,
+      "height": 433
+    },
+    "large": {
+      "width": 252,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 18,
+    "slug": "double-vision-1979",
+    "title": "Double Vision",
+    "year": "1979-80",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas with black glass",
+    "dimensions": "36\\\"h X 84\\\"w",
+    "image_root": "pa80_0040",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 142
+    },
+    "large": {
+      "width": 750,
+      "height": 287
+    },
+    "available": false
+  },
+  {
+    "id": 19,
+    "slug": "dyad-1980",
+    "title": "Dyad",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "acrylic on canvas, birch plwood w/ mirror",
+    "dimensions": "60\\\"h X 70.75\\\"w X 10\\\"d",
+    "image_root": "sc80_0143",
+    "image2_root": null,
+    "small": {
+      "width": 332,
+      "height": 286
+    },
+    "large": {
+      "width": 580,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 20,
+    "slug": "event-horizon-1982",
+    "title": "Event Horizon",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas with wood",
+    "dimensions": "16\\\"h X 17\\\"w X 3\\\"d",
+    "image_root": "pa82_0051",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 308
+    },
+    "large": {
+      "width": 500,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 21,
+    "slug": "ever-present-square-six-red-1980",
+    "title": "Ever Present Square - Six - Red",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "iridescent acrylic, plywood, mirror",
+    "dimensions": "16\\\"h X 17\\\"w X 4.75\\\"d",
+    "image_root": "sc80_0148",
+    "image2_root": null,
+    "small": {
+      "width": 313,
+      "height": 303
+    },
+    "large": {
+      "width": 516,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 22,
+    "slug": "ex-a-1969-1969",
+    "title": "EX-A 1969",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin, fiberglass, watercolor",
+    "dimensions": "21.75\\\" diam.",
+    "image_root": "pa69_0017",
+    "image2_root": null,
+    "small": {
+      "width": 299,
+      "height": 317
+    },
+    "large": {
+      "width": 471,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 23,
+    "slug": "frame-of-reference-34th-scale-1980",
+    "title": "Frame of Reference 34th Scale",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "acrylic, birch plywood, mirror",
+    "dimensions": "25 3/8\\\"h X 12\\\"w X 10\\\"d",
+    "image_root": "sc80_0151",
+    "image2_root": null,
+    "small": {
+      "width": 221,
+      "height": 428
+    },
+    "large": {
+      "width": 258,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 24,
+    "slug": "fly-by-lightjumper-2002",
+    "title": "Fly By Lightjumper",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic colorshift on Lana wc paper",
+    "dimensions": "28\\\"h X 20\\\"w",
+    "image_root": "wp02_0119",
+    "image2_root": null,
+    "small": {
+      "width": 260,
+      "height": 365
+    },
+    "large": {
+      "width": 356,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 25,
+    "slug": "for-dan-diane-1988",
+    "title": "For Dan & Diane",
+    "year": "1988",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas (2-panels)",
+    "dimensions": "36\\\"h X 48\\\"w",
+    "image_root": "pa88_0058",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 243
+    },
+    "large": {
+      "width": 750,
+      "height": 494
+    },
+    "available": false
+  },
+  {
+    "id": 26,
+    "slug": "frame-of-reference-30th-scale-1979",
+    "title": "Frame of Reference 30th scale",
+    "year": "1979",
+    "decade": 70,
+    "medium": "sculpture",
+    "description": "poplar wood, mirror, iridescent acrylic",
+    "dimensions": "36\\\"h X 38\\\"w X 10\\\"d",
+    "image_root": "sc79_0020",
+    "image2_root": null,
+    "small": {
+      "width": 330,
+      "height": 287
+    },
+    "large": {
+      "width": 574,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 27,
+    "slug": "geewu-flecyon-1970-1970",
+    "title": "GeeWu Flecyon 1970",
+    "year": "1970",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin fiberglass",
+    "dimensions": "72\\\"h X 60\\\"w",
+    "image_root": "pa70_0027",
+    "image2_root": null,
+    "small": {
+      "width": 284,
+      "height": 334
+    },
+    "large": {
+      "width": 424,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 28,
+    "slug": "giant-bluethroat-1989",
+    "title": "Giant Bluethroat",
+    "year": "1989",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl film, enamel on aluminum",
+    "dimensions": "25\\\"h X 32\\\"w",
+    "image_root": "pa89_0059",
+    "image2_root": null,
+    "small": {
+      "width": 349,
+      "height": 272
+    },
+    "large": {
+      "width": 642,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 29,
+    "slug": "grand-central-1970",
+    "title": "Grand Central",
+    "year": "1970",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "60\\\"h X 144\\\"w",
+    "image_root": "pa70_0031",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 157
+    },
+    "large": {
+      "width": 750,
+      "height": 319
+    },
+    "available": false
+  },
+  {
+    "id": 30,
+    "slug": "greenbacked-firecrown-1989",
+    "title": "Greenbacked Firecrown",
+    "year": "1989",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on PVC-wood laminate",
+    "dimensions": "14\\\"h X 22\\\"w",
+    "image_root": "pa89_0060",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 235
+    },
+    "large": {
+      "width": 750,
+      "height": 476
+    },
+    "available": true
+  },
+  {
+    "id": 31,
+    "slug": "group-formation-1981",
+    "title": "Group Formation",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "55\\\"h X 89\\\"w",
+    "image_root": "pa81_0043",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 229
+    },
+    "large": {
+      "width": 750,
+      "height": 465
+    },
+    "available": false
+  },
+  {
+    "id": 32,
+    "slug": "hoywegg-1970-1970",
+    "title": "Hoywegg 1970",
+    "year": "1970",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin fiberglass",
+    "dimensions": "72\\\"h X 60\\\"w",
+    "image_root": "pa70_0026",
+    "image2_root": null,
+    "small": {
+      "width": 280,
+      "height": 338
+    },
+    "large": {
+      "width": 414,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 33,
+    "slug": "hue-scrip-6vrc-2002",
+    "title": "Hue-Scrip 6vrc",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic colorshift on PVC",
+    "dimensions": "48\\\"h X 36\\\"w",
+    "image_root": "pa02_0070",
+    "image2_root": "pa02_0002",
+    "small": {
+      "width": 267,
+      "height": 354
+    },
+    "large": {
+      "width": 377,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 34,
+    "slug": "imago-ignota-1980",
+    "title": "Imago Ignota",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "aluminum, beech wood, mirror",
+    "dimensions": "21\\\"h X 21\\\"w X 5\\\"d",
+    "image_root": "sc80_0147",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 308
+    },
+    "large": {
+      "width": 500,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 35,
+    "slug": "isospin-sidewise-1982",
+    "title": "Isospin Sidewise",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "63\\\"h X 72\\\"w",
+    "image_root": "pa82_0053",
+    "image2_root": null,
+    "small": {
+      "width": 331,
+      "height": 286
+    },
+    "large": {
+      "width": 579,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 36,
+    "slug": "liquid-light-1971",
+    "title": "Liquid Light",
+    "year": "1971",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin",
+    "dimensions": "36\\\"h X 30\\\"w",
+    "image_root": "pa71_0038",
+    "image2_root": null,
+    "small": {
+      "width": 285,
+      "height": 333
+    },
+    "large": {
+      "width": 427,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 37,
+    "slug": "mass-con-1969-1969",
+    "title": "Mass-Con 1969",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin",
+    "dimensions": "12\\\" diam.",
+    "image_root": "pa69_0019",
+    "image2_root": null,
+    "small": {
+      "width": 313,
+      "height": 303
+    },
+    "large": {
+      "width": 516,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 38,
+    "slug": "mass-con-2-1969",
+    "title": "Mass-Con - 2",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin",
+    "dimensions": "12\\\" diam.",
+    "image_root": "pa69_0018",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 308
+    },
+    "large": {
+      "width": 497,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 39,
+    "slug": "mem-69-detail-1969",
+    "title": "Mem 69 (detail)",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin fiberglass",
+    "dimensions": "12\\\"h X 18\\\"w",
+    "image_root": "pa69_0024",
+    "image2_root": null,
+    "small": {
+      "width": 244,
+      "height": 389
+    },
+    "large": {
+      "width": 313,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 40,
+    "slug": "mem-com-right-panel-1969",
+    "title": "Mem-Com, right panel",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "72\\\"h X 60\\\"w",
+    "image_root": "pa69_0023",
+    "image2_root": null,
+    "small": {
+      "width": 282,
+      "height": 336
+    },
+    "large": {
+      "width": 419,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 41,
+    "slug": "mem-com-left-panel-1969",
+    "title": "Mem-Com, left panel",
+    "year": "1969",
+    "decade": 60,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "72\\\"h X 60\\\"w",
+    "image_root": "pa69_0022",
+    "image2_root": null,
+    "small": {
+      "width": 285,
+      "height": 333
+    },
+    "large": {
+      "width": 428,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 42,
+    "slug": "mistressofrisk-1971",
+    "title": "Mistressofrisk",
+    "year": "1971",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "95\\\"h X 48\\\"w",
+    "image_root": "pa71_0035",
+    "image2_root": null,
+    "small": {
+      "width": 221,
+      "height": 429
+    },
+    "large": {
+      "width": 257,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 43,
+    "slug": "mizuno-gallery-l-a-installation-view-1971",
+    "title": "Mizuno Gallery L. A. installation view",
+    "year": "1971",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "",
+    "image_root": "pa71_0037",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 224
+    },
+    "large": {
+      "width": 750,
+      "height": 455
+    },
+    "available": true
+  },
+  {
+    "id": 44,
+    "slug": "motion-drama-1982",
+    "title": "Motion Drama",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on shaped canvas",
+    "dimensions": "18\\\"h X 21\\\"w",
+    "image_root": "pa82_0057",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 309
+    },
+    "large": {
+      "width": 496,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 45,
+    "slug": "non-titled-1987-1987",
+    "title": "Non-Titled 1987",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "30\\\"h X 32\\\"w",
+    "image_root": "pa87_0062",
+    "image2_root": null,
+    "small": {
+      "width": 319,
+      "height": 296
+    },
+    "large": {
+      "width": 538,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 46,
+    "slug": "non-titled-drawing-87-1987",
+    "title": "Non-Titled Drawing 87",
+    "year": "1987",
+    "decade": 80,
+    "medium": "paper",
+    "description": "colored wax pencil on black rag paper",
+    "dimensions": "21\\\"h X 19.5\\\"w",
+    "image_root": "wp99_0127",
+    "image2_root": null,
+    "small": {
+      "width": 301,
+      "height": 315
+    },
+    "large": {
+      "width": 478,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 47,
+    "slug": "non-titled-drawing-1988",
+    "title": "Non-Titled Drawing",
+    "year": "1988",
+    "decade": 80,
+    "medium": "paper",
+    "description": "colored wax pencil on black rag paper",
+    "dimensions": "9\\\"h X 12\\\"w",
+    "image_root": "wp88_0050",
+    "image2_root": null,
+    "small": {
+      "width": 356,
+      "height": 266
+    },
+    "large": {
+      "width": 670,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 48,
+    "slug": "non-titled-88-1988",
+    "title": "Non-Titled-88",
+    "year": "1988",
+    "decade": 80,
+    "medium": "paper",
+    "description": "acrylic, colored pencil on grey BFK",
+    "dimensions": "30\\\"h X 22\\\"w",
+    "image_root": "wp02_0126",
+    "image2_root": null,
+    "small": {
+      "width": 260,
+      "height": 364
+    },
+    "large": {
+      "width": 356,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 49,
+    "slug": "out-of-space-1963",
+    "title": "Out of Space",
+    "year": "1963",
+    "decade": 60,
+    "medium": "painting",
+    "description": "lacquer on glass",
+    "dimensions": "8\\\"h X 6\\\"w X 1/8\\\"d",
+    "image_root": "pa63_0013",
+    "image2_root": null,
+    "small": {
+      "width": 251,
+      "height": 378
+    },
+    "large": {
+      "width": 332,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 50,
+    "slug": "shadow-half-1994",
+    "title": "Shadow Half",
+    "year": "1994",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner on acid free plate stock",
+    "dimensions": "17\\\"h X 11\\\"w",
+    "image_root": "wp97_0129",
+    "image2_root": null,
+    "small": {
+      "width": 258,
+      "height": 368
+    },
+    "large": {
+      "width": 350,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 51,
+    "slug": "stand-in-chiffre-iv-1994",
+    "title": "Stand in - Chiffre IV",
+    "year": "1994",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner on acid free plate stock",
+    "dimensions": "17\\\"h X 11\\\"w",
+    "image_root": "wp02_0130",
+    "image2_root": null,
+    "small": {
+      "width": 253,
+      "height": 374
+    },
+    "large": {
+      "width": 339,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 52,
+    "slug": "not-a-figure-nor-the-stillness-of-life-gone-landscaping-1999",
+    "title": "Not a Figure nor the Stillness of Life gone Landscaping",
+    "year": "1999-2000",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic, water base iridescent enamel on PVC",
+    "dimensions": "87\\\"h X 60\\\"w",
+    "image_root": "pa00_0110",
+    "image2_root": "pa00_0003",
+    "small": {
+      "width": 255,
+      "height": 371
+    },
+    "large": {
+      "width": 344,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 53,
+    "slug": "surface-space-refigured-1993",
+    "title": "Surface Space-Refigured",
+    "year": "1993",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, cast vinyl on aluminum",
+    "dimensions": "9\\\"h X 9\\\"w",
+    "image_root": "pa93_0091",
+    "image2_root": null,
+    "small": {
+      "width": 313,
+      "height": 303
+    },
+    "large": {
+      "width": 516,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 54,
+    "slug": "f-b-17-2002",
+    "title": "F-B 17",
+    "year": "2002",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "colorshift acrylic, resin, poplar, MDF, birdseye maple, purpleheart",
+    "dimensions": "4.25\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx02_0170",
+    "image2_root": null,
+    "small": {
+      "width": 349,
+      "height": 271
+    },
+    "large": {
+      "width": 643,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 55,
+    "slug": "adeu-hong-kong-1997",
+    "title": "Adeu Hong Kong",
+    "year": "1997",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "15\\\"h X 15\\\"w",
+    "image_root": "pa97_0199",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 308
+    },
+    "large": {
+      "width": 500,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 56,
+    "slug": "huespace-101093-amber-1993",
+    "title": "Huespace-101093 (amber)",
+    "year": "1993",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "10.5\\\"h X 25\\\"w",
+    "image_root": "pa93_0200",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 155
+    },
+    "large": {
+      "width": 750,
+      "height": 314
+    },
+    "available": true
+  },
+  {
+    "id": 57,
+    "slug": "huespace-102193-red-1993",
+    "title": "Huespace-102193 (red)",
+    "year": "1993",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "10.5\\\"h X 25\\\"w",
+    "image_root": "pa93_0201",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 156
+    },
+    "large": {
+      "width": 750,
+      "height": 317
+    },
+    "available": true
+  },
+  {
+    "id": 58,
+    "slug": "010803-below-zero-2003",
+    "title": "010803 - Below Zero",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on Lana wc paper",
+    "dimensions": "28 11/16\\\"h X 20 3/8\\\"w",
+    "image_root": "wp03_0179",
+    "image2_root": null,
+    "small": {
+      "width": 260,
+      "height": 364
+    },
+    "large": {
+      "width": 358,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 59,
+    "slug": "020103-re-entry-sts-107-2003",
+    "title": "020103 - Re-entry - STS - 107",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic, collage on grey BFK paper",
+    "dimensions": "22 3/8\\\"h X 30\\\"w",
+    "image_root": "wp03_0180",
+    "image2_root": null,
+    "small": {
+      "width": 356,
+      "height": 266
+    },
+    "large": {
+      "width": 668,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 60,
+    "slug": "020503-020103-re-entry-2nd-state-2003",
+    "title": "020503 (020103 re-entry 2nd state)",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on black folio rag paper",
+    "dimensions": "30\\\"h X 22.75\\\"w",
+    "image_root": "wp03_0181",
+    "image2_root": null,
+    "small": {
+      "width": 268,
+      "height": 353
+    },
+    "large": {
+      "width": 380,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 61,
+    "slug": "032803-vr-2003",
+    "title": "032803 vr",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 17.5\\\"w",
+    "image_root": "wp03_0189",
+    "image2_root": null,
+    "small": {
+      "width": 262,
+      "height": 362
+    },
+    "large": {
+      "width": 362,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 62,
+    "slug": "032603-vr-2003",
+    "title": "032603 vr",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "29.25\\\"h X 23.25\\\"w",
+    "image_root": "wp03_0188",
+    "image2_root": null,
+    "small": {
+      "width": 273,
+      "height": 347
+    },
+    "large": {
+      "width": 393,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 63,
+    "slug": "030703-hr-2003",
+    "title": "030703 Hr",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "17.5\\\"h X 22\\\"w",
+    "image_root": "wp03_0187",
+    "image2_root": null,
+    "small": {
+      "width": 345,
+      "height": 274
+    },
+    "large": {
+      "width": 630,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 64,
+    "slug": "030303-hr-2003",
+    "title": "030303 HR",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 28\\\"w",
+    "image_root": "wp03_0198",
+    "image2_root": null,
+    "small": {
+      "width": 348,
+      "height": 272
+    },
+    "large": {
+      "width": 641,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 65,
+    "slug": "022603-sq-2003",
+    "title": "022603 - SQ",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 22\\\"w",
+    "image_root": "wp03_0182",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 307
+    },
+    "large": {
+      "width": 502,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 66,
+    "slug": "022003-sq-2003",
+    "title": "022003 - SQ",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 22\\\"w",
+    "image_root": "wp03_0184",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 308
+    },
+    "large": {
+      "width": 500,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 67,
+    "slug": "021503-sq-in-sight-out-2003",
+    "title": "021503 - SQ - in sight out",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 22\\\"w",
+    "image_root": "wp03_0183",
+    "image2_root": null,
+    "small": {
+      "width": 305,
+      "height": 310
+    },
+    "large": {
+      "width": 492,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 68,
+    "slug": "040703-vr-2003",
+    "title": "040703 vr",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "30\\\"h X 24\\\"w",
+    "image_root": "wp03_0185",
+    "image2_root": null,
+    "small": {
+      "width": 274,
+      "height": 346
+    },
+    "large": {
+      "width": 395,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 69,
+    "slug": "040403-vr-2003",
+    "title": "040403 vr",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "30\\\"h X 24\\\"w",
+    "image_root": "wp03_0186",
+    "image2_root": null,
+    "small": {
+      "width": 273,
+      "height": 347
+    },
+    "large": {
+      "width": 394,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 70,
+    "slug": "010703-from-1996-2003",
+    "title": "010703 (from 1996)",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on Lana wc paper",
+    "dimensions": "28 5/8\\\"h X 20 3/8\\\"w",
+    "image_root": "wp03_0172",
+    "image2_root": null,
+    "small": {
+      "width": 260,
+      "height": 365
+    },
+    "large": {
+      "width": 356,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 71,
+    "slug": "010703-ii-2003",
+    "title": "010703 - II",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on Lana wc paper",
+    "dimensions": "28 5/8\\\"h X 20 3/8\\\"w",
+    "image_root": "wp03_0173",
+    "image2_root": null,
+    "small": {
+      "width": 258,
+      "height": 366
+    },
+    "large": {
+      "width": 353,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 72,
+    "slug": "031302-tixit021103-2003",
+    "title": "031302 TIXIT021103",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic colorshift on Lana wc paper",
+    "dimensions": "28 11/16\\\"h X 20 3/8\\\"w",
+    "image_root": "wp03_0178",
+    "image2_root": null,
+    "small": {
+      "width": 260,
+      "height": 365
+    },
+    "large": {
+      "width": 356,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 73,
+    "slug": "installation-study-for-double-door-wall-2000",
+    "title": "Installation study for double door & wall",
+    "year": "2000",
+    "decade": 0,
+    "medium": "paper",
+    "description": "watercolor on Lana wc paper",
+    "dimensions": "20.25\\\"h X 14.25\\\"w",
+    "image_root": "wp00_0177",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 74,
+    "slug": "01020103-bw-a-2003",
+    "title": "01020103 - BW - A",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 17.5\\\"w",
+    "image_root": "wp03_0194",
+    "image2_root": null,
+    "small": {
+      "width": 274,
+      "height": 346
+    },
+    "large": {
+      "width": 396,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 75,
+    "slug": "01020103-bw-b-2003",
+    "title": "01020103 - BW - B",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 17.5\\\"w",
+    "image_root": "wp03_0195",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 76,
+    "slug": "01020103-bw-c-2003",
+    "title": "01020103 - BW - C",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 17.5\\\"w",
+    "image_root": "wp03_0196",
+    "image2_root": null,
+    "small": {
+      "width": 267,
+      "height": 355
+    },
+    "large": {
+      "width": 376,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 77,
+    "slug": "01020103-bw-d-2003",
+    "title": "01020103 - BW - D",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "22\\\"h X 17.5\\\"w",
+    "image_root": "wp03_0197",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 78,
+    "slug": "sounds-off-duet-i-2000",
+    "title": "Sounds Off Duet - I",
+    "year": "2000",
+    "decade": 0,
+    "medium": "paper",
+    "description": "watercolor on Lana wc paper",
+    "dimensions": "28 11/16\\\"h X 20 7/16\\\"w",
+    "image_root": "wp00_0174",
+    "image2_root": null,
+    "small": {
+      "width": 261,
+      "height": 362
+    },
+    "large": {
+      "width": 360,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 79,
+    "slug": "sounds-off-duet-iii-2000",
+    "title": "Sounds Off Duet - III",
+    "year": "2000",
+    "decade": 0,
+    "medium": "paper",
+    "description": "watercolor on Lana wc paper",
+    "dimensions": "28 11/16\\\"h X 20 7/16\\\"w",
+    "image_root": "wp00_0175",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 80,
+    "slug": "sounds-off-trio-2000",
+    "title": "Sounds Off Trio",
+    "year": "2000",
+    "decade": 0,
+    "medium": "paper",
+    "description": "watercolor on Lana wc paper",
+    "dimensions": "28 11/16\\\"h X 20 7/16\\\"w",
+    "image_root": "wp00_0176",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 81,
+    "slug": "space-breaker-1996",
+    "title": "Space Breaker",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "ink, collage on gray BFK paper",
+    "dimensions": "15\\\"h X 22.25\\\"w",
+    "image_root": "wp96_0233",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 250
+    },
+    "large": {
+      "width": 738,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 82,
+    "slug": "symmetrical-abstraction-i-1996",
+    "title": "Symmetrical Abstraction - I",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic, collage on gray BFK paper",
+    "dimensions": "15\\\"h X 22.25\\\"w",
+    "image_root": "wp96_0232",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 252
+    },
+    "large": {
+      "width": 733,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 83,
+    "slug": "water-to-wine-1996",
+    "title": "Water to Wine",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "mixed media collage on gray BFK paper",
+    "dimensions": "16\\\"h X 22\\\"w",
+    "image_root": "wp96_0234",
+    "image2_root": null,
+    "small": {
+      "width": 360,
+      "height": 263
+    },
+    "large": {
+      "width": 685,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 84,
+    "slug": "collage-study-elaboration-of-invention-defiance-ii-1997",
+    "title": "Collage study-Elaboration of Invention & Defiance-II",
+    "year": "1997",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner on paper on red Mi Teintes paper",
+    "dimensions": "18\\\"h X 24\\\"w",
+    "image_root": "wp97_0226",
+    "image2_root": null,
+    "small": {
+      "width": 354,
+      "height": 267
+    },
+    "large": {
+      "width": 663,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 85,
+    "slug": "color-study-elaboration-of-invention-defiance-ii-1997",
+    "title": "Color Study-Elaboration of Invention & Defiance-II",
+    "year": "1997",
+    "decade": 90,
+    "medium": "paper",
+    "description": "mixed media on paper on red Mi Teintes paper",
+    "dimensions": "18\\\"h X 24\\\"w",
+    "image_root": "wp97_0227",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 267
+    },
+    "large": {
+      "width": 666,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 86,
+    "slug": "optasia-elaboration-study-1997",
+    "title": "Optasia Elaboration study",
+    "year": "1997",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic, collage on gray BFK paper",
+    "dimensions": "21 7/8\\\"h X 28\\\"w",
+    "image_root": "wp97_0229",
+    "image2_root": null,
+    "small": {
+      "width": 349,
+      "height": 272
+    },
+    "large": {
+      "width": 642,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 87,
+    "slug": "as-it-is-1997",
+    "title": "As It Is",
+    "year": "1997",
+    "decade": 90,
+    "medium": "paper",
+    "description": "mixed media collage on gray BFK paper",
+    "dimensions": "22\\\"h X 28\\\"w",
+    "image_root": "wp97_0228",
+    "image2_root": null,
+    "small": {
+      "width": 349,
+      "height": 271
+    },
+    "large": {
+      "width": 643,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 88,
+    "slug": "symmetrical-abstraction-iii-1996",
+    "title": "Symmetrical Abstraction - III",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic, collage on gray BFK paper",
+    "dimensions": "22.5\\\"h X 30\\\"w",
+    "image_root": "wp96_0230",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 267
+    },
+    "large": {
+      "width": 666,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 89,
+    "slug": "symmetrical-abstraction-ii-1996",
+    "title": "Symmetrical Abstraction - II",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic, collage on gray BFK paper",
+    "dimensions": "22.5\\\"h X 30\\\"w",
+    "image_root": "wp96_0231",
+    "image2_root": null,
+    "small": {
+      "width": 354,
+      "height": 267
+    },
+    "large": {
+      "width": 662,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 90,
+    "slug": "co-ordinate-yvgrb-1989",
+    "title": "Co-Ordinate - YVGRB",
+    "year": "1989",
+    "decade": 80,
+    "medium": "paper",
+    "description": "acrylic on paper",
+    "dimensions": "24.25\\\"h X 26\\\"w",
+    "image_root": "wp89_0238",
+    "image2_root": null,
+    "small": {
+      "width": 320,
+      "height": 296
+    },
+    "large": {
+      "width": 540,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 91,
+    "slug": "tupos-relined-1989",
+    "title": "Tupos-Relined",
+    "year": "1989",
+    "decade": 80,
+    "medium": "paper",
+    "description": "acrylic on paper",
+    "dimensions": "24.25\\\"h X 26\\\"w",
+    "image_root": "wp89_0239",
+    "image2_root": null,
+    "small": {
+      "width": 317,
+      "height": 298
+    },
+    "large": {
+      "width": 532,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 92,
+    "slug": "au-contraire-un-1993",
+    "title": "Au Contraire - un",
+    "year": "1993",
+    "decade": 90,
+    "medium": "paper",
+    "description": "mixed media on Arches 500 yr paper",
+    "dimensions": "30\\\"h X 22\\\"w",
+    "image_root": "wp93_0222",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 357
+    },
+    "large": {
+      "width": 371,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 93,
+    "slug": "au-contraire-deux-1993",
+    "title": "Au Contraire - deux",
+    "year": "1993",
+    "decade": 90,
+    "medium": "paper",
+    "description": "mixed media on Arches 500 yr paper",
+    "dimensions": "30\\\"h X 22\\\"w",
+    "image_root": "wp93_0223",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 94,
+    "slug": "au-contraire-trois-1993",
+    "title": "Au Contraire - trois",
+    "year": "1993",
+    "decade": 90,
+    "medium": "paper",
+    "description": "mixed media on Arches 500 yr paper",
+    "dimensions": "30\\\"h X 22\\\"w",
+    "image_root": "wp93_0224",
+    "image2_root": null,
+    "small": {
+      "width": 267,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 95,
+    "slug": "translation-1-1985",
+    "title": "Translation 1",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "18\\\"h X 12\\\"w",
+    "image_root": "wp87_0206",
+    "image2_root": null,
+    "small": {
+      "width": 250,
+      "height": 379
+    },
+    "large": {
+      "width": 329,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 96,
+    "slug": "translation-iii-1985",
+    "title": "Translation III",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "18\\\"h X 12\\\"w",
+    "image_root": "wp87_0207",
+    "image2_root": null,
+    "small": {
+      "width": 252,
+      "height": 375
+    },
+    "large": {
+      "width": 336,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 97,
+    "slug": "translation-iv-1985",
+    "title": "Translation IV",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "18\\\"h X 12\\\"w",
+    "image_root": "wp87_0208",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 245
+    },
+    "large": {
+      "width": 750,
+      "height": 497
+    },
+    "available": true
+  },
+  {
+    "id": 98,
+    "slug": "dialect-i-1987",
+    "title": "Dialect - I",
+    "year": "1987",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "wp87_0209",
+    "image2_root": null,
+    "small": {
+      "width": 283,
+      "height": 334
+    },
+    "large": {
+      "width": 424,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 99,
+    "slug": "dialect-iv-1985",
+    "title": "Dialect - IV",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "18\\\"h X 24\\\"w",
+    "image_root": "wp02_0210",
+    "image2_root": null,
+    "small": {
+      "width": 356,
+      "height": 266
+    },
+    "large": {
+      "width": 668,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 100,
+    "slug": "dialect-vii-1985",
+    "title": "Dialect - VII",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "18\\\"h X 24\\\"w",
+    "image_root": "wp87_0211",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 101,
+    "slug": "red-allover-1-1985",
+    "title": "Red Allover - 1",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "wp87_0204",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 357
+    },
+    "large": {
+      "width": 372,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 102,
+    "slug": "red-allover-2-1985",
+    "title": "Red Allover - 2",
+    "year": "1985-87",
+    "decade": 80,
+    "medium": "paper",
+    "description": "newsprint transfer, acrylic on rice paper",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "wp87_0205",
+    "image2_root": null,
+    "small": {
+      "width": 267,
+      "height": 355
+    },
+    "large": {
+      "width": 376,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 103,
+    "slug": "encriptic-a-1993",
+    "title": "Encriptic - A",
+    "year": "1993",
+    "decade": 90,
+    "medium": "painting",
+    "description": "iridescent acrylic, mixed media on PVC",
+    "dimensions": "32\\\"h X 23\\\"w",
+    "image_root": "pa93_0202",
+    "image2_root": null,
+    "small": {
+      "width": 261,
+      "height": 363
+    },
+    "large": {
+      "width": 359,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 104,
+    "slug": "encriptic-b-1993",
+    "title": "Encriptic - B",
+    "year": "1993",
+    "decade": 90,
+    "medium": "painting",
+    "description": "iridescent acrylic, mixed media on PVC",
+    "dimensions": "24\\\"h X 24\\\"w",
+    "image_root": "pa93_0203",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 309
+    },
+    "large": {
+      "width": 496,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 105,
+    "slug": "in-circled-1969",
+    "title": "In-circled",
+    "year": "1969-70",
+    "decade": 70,
+    "medium": "paper",
+    "description": "colored inks on paper",
+    "dimensions": "11\\\"h X 14\\\"w",
+    "image_root": "wp70_0212",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 106,
+    "slug": "in-warp-1971",
+    "title": "In-warp",
+    "year": "1971",
+    "decade": 70,
+    "medium": "paper",
+    "description": "colored inks on paper",
+    "dimensions": "14\\\"h X 11\\\"w",
+    "image_root": "wp71_0213",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 107,
+    "slug": "colortoon-1993",
+    "title": "Colortoon",
+    "year": "1993",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic on watercolor paper",
+    "dimensions": "11\\\"h X 15\\\"w",
+    "image_root": "wp93_0236",
+    "image2_root": null,
+    "small": {
+      "width": 361,
+      "height": 263
+    },
+    "large": {
+      "width": 686,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 108,
+    "slug": "04-jan-elliptical-shift-study-1992",
+    "title": "04-JAN Elliptical Shift study",
+    "year": "1992",
+    "decade": 90,
+    "medium": "paper",
+    "description": "black litho crayon on paper",
+    "dimensions": "14\\\"h X 11\\\"w",
+    "image_root": "wp92_0235",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 109,
+    "slug": "for-a-painting-144-1993",
+    "title": "For a Painting - 144",
+    "year": "1993",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic, collage on paper",
+    "dimensions": "18\\\"h X 12\\\"w",
+    "image_root": "wp93_0237",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 357
+    },
+    "large": {
+      "width": 371,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 110,
+    "slug": "illusion-of-similar-reference-1980",
+    "title": "Illusion of Similar Reference",
+    "year": "1980",
+    "decade": 80,
+    "medium": "paper",
+    "description": "graphite, colored wax pencil on tracing vellum",
+    "dimensions": "14\\\"h X 17\\\"w",
+    "image_root": "wp80_0241",
+    "image2_root": null,
+    "small": {
+      "width": 356,
+      "height": 266
+    },
+    "large": {
+      "width": 670,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 111,
+    "slug": "illusion-of-similar-reflection-1980",
+    "title": "Illusion of Similar Reflection",
+    "year": "1980",
+    "decade": 80,
+    "medium": "paper",
+    "description": "graphite, colored wax pencil on tracing vellum",
+    "dimensions": "14\\\"h X 17\\\"w",
+    "image_root": "wp80_0240",
+    "image2_root": null,
+    "small": {
+      "width": 354,
+      "height": 268
+    },
+    "large": {
+      "width": 661,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 112,
+    "slug": "bws-p-b-1995",
+    "title": "BWS-P-B",
+    "year": "1995",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner, collage on paper",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "wp95_0214",
+    "image2_root": null,
+    "small": {
+      "width": 282,
+      "height": 335
+    },
+    "large": {
+      "width": 421,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 113,
+    "slug": "bws-p-c-1995",
+    "title": "BWS-P-C",
+    "year": "1995",
+    "decade": 90,
+    "medium": "paper",
+    "description": "collage on paper",
+    "dimensions": "5.75\\\"h X 11\\\"w",
+    "image_root": "wp95_0215",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 206
+    },
+    "large": {
+      "width": 750,
+      "height": 418
+    },
+    "available": true
+  },
+  {
+    "id": 114,
+    "slug": "04apr1996bws-p-f-1996",
+    "title": "04APR1996BWS-P-F",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "collage on paper",
+    "dimensions": "10\\\"h X 11.5\\\"w",
+    "image_root": "wp96_0216",
+    "image2_root": null,
+    "small": {
+      "width": 327,
+      "height": 289
+    },
+    "large": {
+      "width": 566,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 115,
+    "slug": "aesthetic-warfare-continued-1996",
+    "title": "Aesthetic Warfare continued",
+    "year": "1996",
+    "decade": 90,
+    "medium": "paper",
+    "description": "collage on paper",
+    "dimensions": "11\\\"h X 8.25\\\"w",
+    "image_root": "wp96_0217",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 116,
+    "slug": "over-above-1995",
+    "title": "Over & Above",
+    "year": "1995",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner collage on red Mi Teintes paper",
+    "dimensions": "18\\\"h X 11\\\"w",
+    "image_root": "wp95_0221",
+    "image2_root": null,
+    "small": {
+      "width": 240,
+      "height": 395
+    },
+    "large": {
+      "width": 304,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 117,
+    "slug": "sight-jam-variant-2-1995",
+    "title": "Sight Jam variant - 2",
+    "year": "1995",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner collage on red Mi Teintes paper",
+    "dimensions": "11\\\"h X 14\\\"w",
+    "image_root": "wp95_0220",
+    "image2_root": null,
+    "small": {
+      "width": 348,
+      "height": 272
+    },
+    "large": {
+      "width": 641,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 118,
+    "slug": "sight-jam-variant-3-1995",
+    "title": "Sight Jam variant - 3",
+    "year": "1995",
+    "decade": 90,
+    "medium": "paper",
+    "description": "co-polymer toner collage on red Mi Teintes paper",
+    "dimensions": "8.5\\\"h X 13\\\"w",
+    "image_root": "wp95_0219",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 246
+    },
+    "large": {
+      "width": 750,
+      "height": 499
+    },
+    "available": true
+  },
+  {
+    "id": 119,
+    "slug": "sight-jam-variant-4-1995",
+    "title": "Sight Jam variant - 4",
+    "year": "1995",
+    "decade": 90,
+    "medium": "paper",
+    "description": "collage on paper",
+    "dimensions": "9\\\"h X 12\\\"w",
+    "image_root": "wp95_0218",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 267
+    },
+    "large": {
+      "width": 666,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 120,
+    "slug": "xx-b-minature-1994",
+    "title": "XX-B-Minature",
+    "year": "1994",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic, collage on pale green Mi Teintes paper",
+    "dimensions": "10\\\"h X 10\\\"w",
+    "image_root": "wp94_0225",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 308
+    },
+    "large": {
+      "width": 500,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 121,
+    "slug": "wind-o-iii-2003",
+    "title": "Wind-O-III",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "inkjet on museum board",
+    "dimensions": "11\\\"h X 14\\\"w",
+    "image_root": "wp03_0190",
+    "image2_root": null,
+    "small": {
+      "width": 365,
+      "height": 259
+    },
+    "large": {
+      "width": 704,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 122,
+    "slug": "040803-sq-2003",
+    "title": "040803-SQ",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on coventry rag paper",
+    "dimensions": "7\\\"h X 7\\\"w",
+    "image_root": "wp03_0191",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 309
+    },
+    "large": {
+      "width": 496,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 123,
+    "slug": "fluoresq-01-2003",
+    "title": "Fluoresq -01",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "fluorescent acrylic on coventry rag paper",
+    "dimensions": "13\\\"h X 13\\\"w",
+    "image_root": "wp03_0192",
+    "image2_root": null,
+    "small": {
+      "width": 306,
+      "height": 309
+    },
+    "large": {
+      "width": 496,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 124,
+    "slug": "fluoresq-02-2003",
+    "title": "Fluoresq -02",
+    "year": "2003",
+    "decade": 0,
+    "medium": "paper",
+    "description": "fluorescent acrylic on coventry rag paper",
+    "dimensions": "13\\\"h X 13\\\"w",
+    "image_root": "wp03_0193",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 308
+    },
+    "large": {
+      "width": 499,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 125,
+    "slug": "21c3-debri-so-2003",
+    "title": "21C3-Debri-SO",
+    "year": "2003",
+    "decade": 0,
+    "medium": "sculpture",
+    "description": "steel, magnets, milled aluminum, molded plastic",
+    "dimensions": "13\\\"h X 8\\\"w X 8\\\"d",
+    "image_root": "sc03_0152",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 358
+    },
+    "large": {
+      "width": 370,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 126,
+    "slug": "functional-box-16-2002",
+    "title": "Functional Box 16",
+    "year": "2002",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "colorshift acrylic, resin, fused dichroic glass, poplar, bubinga, MDF",
+    "dimensions": "4.25\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx02_0169",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 127,
+    "slug": "hue-scrip-2vrc-2002",
+    "title": "Hue-Scrip 2vrc",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic colorshift on PVC",
+    "dimensions": "48\\\"h X 36\\\"w",
+    "image_root": "pa02_0112",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 356
+    },
+    "large": {
+      "width": 373,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 128,
+    "slug": "hue-scrip-4vrc-2002",
+    "title": "Hue-Scrip 4vrc",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic colorshift on PVC",
+    "dimensions": "48\\\"h X 36\\\"w",
+    "image_root": "pa02_0111",
+    "image2_root": null,
+    "small": {
+      "width": 267,
+      "height": 355
+    },
+    "large": {
+      "width": 376,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 129,
+    "slug": "hue-scrip-3sq-2001",
+    "title": "Hue-Scrip 3sq",
+    "year": "2001",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic on PVC",
+    "dimensions": "34\\\"h X 34\\\"w",
+    "image_root": "pa01_0109",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 308
+    },
+    "large": {
+      "width": 498,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 130,
+    "slug": "hue-scrip-colorshift-sq-2001",
+    "title": "Hue-Scrip - Colorshift - sq.",
+    "year": "2001",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic colorshift on PVC",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa01_0140",
+    "image2_root": null,
+    "small": {
+      "width": 310,
+      "height": 306
+    },
+    "large": {
+      "width": 507,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 131,
+    "slug": "prophetic-aesthetic-revision-frame-of-reference-1995",
+    "title": "Prophetic Aesthetic Revision (frame of reference)",
+    "year": "1995",
+    "decade": 90,
+    "medium": "sculpture",
+    "description": "acrylic, vinyl film, co-polymer toner, paper on wood with mirror",
+    "dimensions": "15\\\"h X 15\\\"w X 5\\\"d",
+    "image_root": "sc87_0116",
+    "image2_root": null,
+    "small": {
+      "width": 345,
+      "height": 274
+    },
+    "large": {
+      "width": 629,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 132,
+    "slug": "north-american-symmetrical-abstraction-1997",
+    "title": "North American Symmetrical Abstraction",
+    "year": "1997",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "15\\\"h X 15\\\"w",
+    "image_root": "pa97_0106",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 308
+    },
+    "large": {
+      "width": 499,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 133,
+    "slug": "out-of-bounds-1993",
+    "title": "Out of Bounds",
+    "year": "1993-94",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "12\\\"h X 16\\\"w",
+    "image_root": "pa94_0092",
+    "image2_root": null,
+    "small": {
+      "width": 352,
+      "height": 269
+    },
+    "large": {
+      "width": 654,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 134,
+    "slug": "off-the-blue-1996",
+    "title": "Off the Blue",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa96_0101",
+    "image2_root": null,
+    "small": {
+      "width": 310,
+      "height": 306
+    },
+    "large": {
+      "width": 506,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 135,
+    "slug": "optasia-i-1996",
+    "title": "Optasia - I",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "iridescent acrylic, mixed media on PVC",
+    "dimensions": "12\\\"h X 24\\\"w",
+    "image_root": "pa96_0097",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 184
+    },
+    "large": {
+      "width": 750,
+      "height": 373
+    },
+    "available": true
+  },
+  {
+    "id": 136,
+    "slug": "optasia-ii-1996",
+    "title": "Optasia - II",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "12\\\"h X 24\\\"w",
+    "image_root": "pa96_0098",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 184
+    },
+    "large": {
+      "width": 750,
+      "height": 373
+    },
+    "available": true
+  },
+  {
+    "id": 137,
+    "slug": "rendezvous-1996",
+    "title": "Rendezvous",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "iridescent acrylic, vinyl film on PVC",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa96_0139",
+    "image2_root": null,
+    "small": {
+      "width": 309,
+      "height": 306
+    },
+    "large": {
+      "width": 504,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 138,
+    "slug": "refiguration-1-1987",
+    "title": "Refiguration - 1",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl film on plywood",
+    "dimensions": "22.75\\\"h X 16\\\"w X 1\\\"d",
+    "image_root": "pa87_0056",
+    "image2_root": null,
+    "small": {
+      "width": 258,
+      "height": 367
+    },
+    "large": {
+      "width": 352,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 139,
+    "slug": "non-titled-refiguration-1987",
+    "title": "Non-Titled Refiguration",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl film on plywood",
+    "dimensions": "22.75\\\"h X 16\\\"w X 1\\\"d",
+    "image_root": "pa87_0087",
+    "image2_root": null,
+    "small": {
+      "width": 257,
+      "height": 368
+    },
+    "large": {
+      "width": 350,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 140,
+    "slug": "before-your-face-1987",
+    "title": "Before Your Face",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on vinyl-plywood laminate",
+    "dimensions": "24\\\"h X 17.5\\\"w X 1.75\\\"d",
+    "image_root": "pa87_0004",
+    "image2_root": null,
+    "small": {
+      "width": 262,
+      "height": 362
+    },
+    "large": {
+      "width": 361,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 141,
+    "slug": "eliptical-shift-1-1992",
+    "title": "Eliptical Shift - 1",
+    "year": "1992",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas panel",
+    "dimensions": "24\\\"h X 12\\\"w",
+    "image_root": "pa92_0087",
+    "image2_root": null,
+    "small": {
+      "width": 216,
+      "height": 438
+    },
+    "large": {
+      "width": 246,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 142,
+    "slug": "eliptical-shift-2-1992",
+    "title": "Eliptical Shift - 2",
+    "year": "1992",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas panel",
+    "dimensions": "24\\\"h X 12\\\"w",
+    "image_root": "pa92_0088",
+    "image2_root": null,
+    "small": {
+      "width": 216,
+      "height": 438
+    },
+    "large": {
+      "width": 246,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 143,
+    "slug": "unknown-2-1992",
+    "title": "Unknown - 2",
+    "year": "1992",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas panel",
+    "dimensions": "24\\\"h X 12\\\"w",
+    "image_root": "pa92_0090",
+    "image2_root": null,
+    "small": {
+      "width": 217,
+      "height": 437
+    },
+    "large": {
+      "width": 248,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 144,
+    "slug": "unknown-1-1992",
+    "title": "Unknown - 1",
+    "year": "1992",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas panel",
+    "dimensions": "24\\\"h X 12\\\"w",
+    "image_root": "pa92_0089",
+    "image2_root": null,
+    "small": {
+      "width": 217,
+      "height": 437
+    },
+    "large": {
+      "width": 248,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 145,
+    "slug": "optasia-dix-1996",
+    "title": "Optasia - Dix",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "24\\\"h X 24\\\"w",
+    "image_root": "pa96_0099",
+    "image2_root": null,
+    "small": {
+      "width": 308,
+      "height": 308
+    },
+    "large": {
+      "width": 500,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 146,
+    "slug": "optasia-pichots-boat-1996",
+    "title": "Optasia - Pichot's Boat",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "24\\\"h X 24\\\"w",
+    "image_root": "pa96_0100",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 309
+    },
+    "large": {
+      "width": 496,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 147,
+    "slug": "elaboration-of-invention-defiance-1997",
+    "title": "Elaboration of Invention & Defiance",
+    "year": "1997",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "48\\\"h X 36\\\"w",
+    "image_root": "pa97_0118",
+    "image2_root": "pa97_0001",
+    "small": {
+      "width": 265,
+      "height": 357
+    },
+    "large": {
+      "width": 371,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 148,
+    "slug": "unknown-knowing-1987",
+    "title": "Unknown-Knowing",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "enamel, acrylic on aluminum & wood",
+    "dimensions": "36\\\"h X 25\\\"w",
+    "image_root": "pa87_0065",
+    "image2_root": null,
+    "small": {
+      "width": 257,
+      "height": 368
+    },
+    "large": {
+      "width": 350,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 149,
+    "slug": "detail-detail-1991",
+    "title": "Detail - Detail",
+    "year": "1991",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on canvas & PVC",
+    "dimensions": "27\\\"h X 36\\\"w X 3.25\\\"d",
+    "image_root": "pa91_0082",
+    "image2_root": null,
+    "small": {
+      "width": 352,
+      "height": 269
+    },
+    "large": {
+      "width": 654,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 150,
+    "slug": "so-see-1995",
+    "title": "So See",
+    "year": "1995",
+    "decade": 90,
+    "medium": "painting",
+    "description": "iridescent acrylic, mixed media on PVC",
+    "dimensions": "24\\\"h X 15 7/8\\\"w",
+    "image_root": "pa95_0138",
+    "image2_root": null,
+    "small": {
+      "width": 250,
+      "height": 379
+    },
+    "large": {
+      "width": 330,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 151,
+    "slug": "shadow-play-2002",
+    "title": "Shadow Play",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "acrylic on Lana wc paper",
+    "dimensions": "28.5\\\"h X 20\\\"w X",
+    "image_root": "wp02_0107",
+    "image2_root": null,
+    "small": {
+      "width": 259,
+      "height": 365
+    },
+    "large": {
+      "width": 355,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 152,
+    "slug": "significant-singular-i-1996",
+    "title": "Significant Singular - I",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on fiberglass",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "pa96_0102",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 356
+    },
+    "large": {
+      "width": 373,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 153,
+    "slug": "significant-singular-ii-1996",
+    "title": "Significant Singular - II",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "imxed media on fiberglass",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "pa96_0103",
+    "image2_root": null,
+    "small": {
+      "width": 267,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 154,
+    "slug": "2-t-squared-1995",
+    "title": "2-T Squared",
+    "year": "1995",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "24\\\"h X 24\\\"w",
+    "image_root": "pa95_0096",
+    "image2_root": null,
+    "small": {
+      "width": 306,
+      "height": 309
+    },
+    "large": {
+      "width": 494,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 155,
+    "slug": "summer-tropic-ii-1991",
+    "title": "Summer Tropic - II",
+    "year": "1991",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas panel",
+    "dimensions": "20\\\"h X 24\\\"w",
+    "image_root": "pa91_0081",
+    "image2_root": null,
+    "small": {
+      "width": 337,
+      "height": 281
+    },
+    "large": {
+      "width": 599,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 156,
+    "slug": "summer-tropic-i-1991",
+    "title": "Summer Tropic - I",
+    "year": "1991",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas panel",
+    "dimensions": "20\\\"h X 24\\\"w",
+    "image_root": "pa91_0080",
+    "image2_root": null,
+    "small": {
+      "width": 336,
+      "height": 281
+    },
+    "large": {
+      "width": 598,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 157,
+    "slug": "detail-1991",
+    "title": "Detail",
+    "year": "1991",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "9\\\"h X 9\\\"w",
+    "image_root": "pa91_0083",
+    "image2_root": null,
+    "small": {
+      "width": 311,
+      "height": 305
+    },
+    "large": {
+      "width": 510,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 158,
+    "slug": "high-pinx-1994",
+    "title": "High Pinx",
+    "year": "1994",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "11.5\\\"h X 12\\\"w",
+    "image_root": "pa94_0095",
+    "image2_root": null,
+    "small": {
+      "width": 300,
+      "height": 315
+    },
+    "large": {
+      "width": 476,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 159,
+    "slug": "sight-so-1995",
+    "title": "Sight So",
+    "year": "1995",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on PVC",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa95_0136",
+    "image2_root": null,
+    "small": {
+      "width": 309,
+      "height": 307
+    },
+    "large": {
+      "width": 504,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 160,
+    "slug": "5-4-jam-b-1994",
+    "title": "5-4 Jam (B)",
+    "year": "1994",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "13.25\\\"h X 13\\\"w",
+    "image_root": "pa94_0094",
+    "image2_root": null,
+    "small": {
+      "width": 303,
+      "height": 312
+    },
+    "large": {
+      "width": 485,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 161,
+    "slug": "5-4-jam-a-1994",
+    "title": "5-4 Jam (A)",
+    "year": "1994",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on PVC",
+    "dimensions": "13\\\"h X 13.25\\\"w",
+    "image_root": "pa94_0093",
+    "image2_root": null,
+    "small": {
+      "width": 303,
+      "height": 312
+    },
+    "large": {
+      "width": 485,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 162,
+    "slug": "hue-scrip-7sq-2002",
+    "title": "Hue-Scrip 7sq",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic colorshift on PVC",
+    "dimensions": "24\\\"h X 24\\\"w",
+    "image_root": "pa02_0113",
+    "image2_root": null,
+    "small": {
+      "width": 311,
+      "height": 304
+    },
+    "large": {
+      "width": 512,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 163,
+    "slug": "hue-scrip-8sq-2002",
+    "title": "Hue-Scrip 8sq",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "acrylic colorshift on PVC",
+    "dimensions": "24\\\"h X 24\\\"w",
+    "image_root": "pa02_0117",
+    "image2_root": null,
+    "small": {
+      "width": 311,
+      "height": 305
+    },
+    "large": {
+      "width": 510,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 164,
+    "slug": "functional-box-14-2000",
+    "title": "Functional Box 14",
+    "year": "2000",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent acrylic, fused dichroic glass, poplar, MDF, birdseye maple",
+    "dimensions": "4.25\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx00_0167",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 165,
+    "slug": "functional-box-12-2001",
+    "title": "Functional Box 12",
+    "year": "2001",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent acrylic, fused dichroic glass, poplar, bubinga, MDF",
+    "dimensions": "4.75\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx01_0165",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 166,
+    "slug": "hue-scrip-blue-shift-edition-of-2-2002",
+    "title": "Hue-Scrip Blue Shift (edition of 2)",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "ink jet on black folio rag paper",
+    "dimensions": "14\\\"h X 11\\\"w",
+    "image_root": "wp02_0131",
+    "image2_root": null,
+    "small": {
+      "width": 272,
+      "height": 349
+    },
+    "large": {
+      "width": 389,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 167,
+    "slug": "optical-bop-one-2002",
+    "title": "Optical Bop - one",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "vinyl film on black folio rag paper",
+    "dimensions": "14\\\"h X 11\\\"w",
+    "image_root": "wp02_0132",
+    "image2_root": null,
+    "small": {
+      "width": 272,
+      "height": 348
+    },
+    "large": {
+      "width": 392,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 168,
+    "slug": "momboptic-d-1-2002",
+    "title": "Momboptic D - 1",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "ink jet on black folio rag paper",
+    "dimensions": "14\\\"h X 11\\\"w",
+    "image_root": "wp02_0135",
+    "image2_root": null,
+    "small": {
+      "width": 273,
+      "height": 346
+    },
+    "large": {
+      "width": 395,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 169,
+    "slug": "nu-zip-2002",
+    "title": "Nu-Zip",
+    "year": "2002",
+    "decade": 0,
+    "medium": "sculpture",
+    "description": "iridescent acrylic, colorshift vinyl film, urethane, on wood",
+    "dimensions": "4\\\"h X 100.5\\\"w X 1.5\\\"d",
+    "image_root": "sc02_0114",
+    "image2_root": "sc02_0011",
+    "small": {
+      "width": 370,
+      "height": 228
+    },
+    "large": {
+      "width": 750,
+      "height": 464
+    },
+    "available": true
+  },
+  {
+    "id": 170,
+    "slug": "narrow-depth-mmi-2001",
+    "title": "Narrow Depth - MMI",
+    "year": "2001",
+    "decade": 0,
+    "medium": "sculpture",
+    "description": "Iridescent acrylic, urethane on wood with mirror",
+    "dimensions": "39.5\\\"h X 8\\\"w X 5\\\"d",
+    "image_root": "sc01_0108",
+    "image2_root": null,
+    "small": {
+      "width": 194,
+      "height": 488
+    },
+    "large": {
+      "width": 199,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 171,
+    "slug": "f-b-18-2001",
+    "title": "F-B 18",
+    "year": "2001",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent enamel, fused dichroic glass, MDF, birdseye maple",
+    "dimensions": "4.5\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx01_0171",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 256
+    },
+    "large": {
+      "width": 723,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 172,
+    "slug": "functional-box-13-1999",
+    "title": "Functional Box 13",
+    "year": "1999",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "iridescent acrylic, oak, poplar, plexiglass",
+    "dimensions": "3\\\"h X 10.5\\\"w X 7\\\"d",
+    "image_root": "bx99_0166",
+    "image2_root": null,
+    "small": {
+      "width": 360,
+      "height": 263
+    },
+    "large": {
+      "width": 683,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 173,
+    "slug": "functional-box-11-2001",
+    "title": "Functional Box 11",
+    "year": "2001",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent enamel, fused dichroic glass, poplar MDF",
+    "dimensions": "3\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx01_0164",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 174,
+    "slug": "functional-box-15-1999",
+    "title": "Functional Box 15",
+    "year": "1999",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "acrylic, 22kt. Gold leaf, poplar, maple",
+    "dimensions": "4\\\"h X 6.5\\\"w X 6.5\\\"d",
+    "image_root": "bx99_0168",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 175,
+    "slug": "blue-square-box-2000",
+    "title": "Blue Square Box",
+    "year": "2000",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent acrylic, poplar, bubinga",
+    "dimensions": "4\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx00_0162",
+    "image2_root": null,
+    "small": {
+      "width": 352,
+      "height": 269
+    },
+    "large": {
+      "width": 655,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 176,
+    "slug": "functional-box-10-2001",
+    "title": "Functional Box 10",
+    "year": "2001",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent water based enamel, poplar, bubinga, cherry",
+    "dimensions": "2.5\\\"h X 8\\\"w X 5.5\\\"d",
+    "image_root": "bx01_0163",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 244
+    },
+    "large": {
+      "width": 750,
+      "height": 495
+    },
+    "available": true
+  },
+  {
+    "id": 177,
+    "slug": "functional-box-8-1999",
+    "title": "Functional Box 8",
+    "year": "1999",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "iridescent acrylic, poplar, plexiglas",
+    "dimensions": "5\\\"h X 12\\\"w X 5\\\"d",
+    "image_root": "bx99_0161",
+    "image2_root": null,
+    "small": {
+      "width": 355,
+      "height": 266
+    },
+    "large": {
+      "width": 667,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 178,
+    "slug": "double-stack-box-1999",
+    "title": "Double Stack Box",
+    "year": "1999",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "iridescent acrylic, urethane, poplar, cherry & plexiglas",
+    "dimensions": "4\\\"h X 7.25\\\"w X 5.25\\\"d",
+    "image_root": "bx99_0160",
+    "image2_root": null,
+    "small": {
+      "width": 341,
+      "height": 277
+    },
+    "large": {
+      "width": 615,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 179,
+    "slug": "blue-heart-box-1998",
+    "title": "Blue Heart Box",
+    "year": "1998",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "iridescent acrylic, poplar, mahogany, birch, plexiglass",
+    "dimensions": "3.5\\\"h X 8\\\"w X 5\\\"d",
+    "image_root": "bx98_0159",
+    "image2_root": null,
+    "small": {
+      "width": 328,
+      "height": 289
+    },
+    "large": {
+      "width": 568,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 180,
+    "slug": "functional-box-5-1998",
+    "title": "Functional Box 5",
+    "year": "1998",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "acrylic, gold leaf, silver leaf, poplar, purpleheart",
+    "dimensions": "3.5\\\"h X 12.25\\\"w X 4.75\\\"d",
+    "image_root": "bx88_0158",
+    "image2_root": null,
+    "small": {
+      "width": 346,
+      "height": 273
+    },
+    "large": {
+      "width": 634,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 181,
+    "slug": "7-sided-box-1999",
+    "title": "7-Sided box",
+    "year": "1999",
+    "decade": 90,
+    "medium": "boxes",
+    "description": "iridescent acrylic, birch plywood, maple, mahogany",
+    "dimensions": "3.25\\\"h X 12.5\\\"w X 6.25\\\"d",
+    "image_root": "bx99_0157",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 236
+    },
+    "large": {
+      "width": 750,
+      "height": 479
+    },
+    "available": true
+  },
+  {
+    "id": 182,
+    "slug": "functional-box-c-iii-2001",
+    "title": "Functional Box C - III",
+    "year": "2001",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "iridescent acrylic, birch plywood, maple, mahogany",
+    "dimensions": "4\\\"h X 9\\\"w X 6\\\"d",
+    "image_root": "bx01_0156",
+    "image2_root": null,
+    "small": {
+      "width": 324,
+      "height": 292
+    },
+    "large": {
+      "width": 554,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 183,
+    "slug": "painting-1989-1989",
+    "title": "Painting-1989",
+    "year": "1989",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "20\\\"h X 24\\\"w",
+    "image_root": "pa89_0063",
+    "image2_root": null,
+    "small": {
+      "width": 326,
+      "height": 290
+    },
+    "large": {
+      "width": 563,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 184,
+    "slug": "round-angle-blueshift-2002",
+    "title": "Round Angle-BlueShift",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "iridescent waterbased enamel on molded plastic",
+    "dimensions": "12.25\\\" diam. X 6\\\"d",
+    "image_root": "pa02_0010",
+    "image2_root": null,
+    "small": {
+      "width": 337,
+      "height": 281
+    },
+    "large": {
+      "width": 600,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 185,
+    "slug": "one-square-foot-dance-step-1994",
+    "title": "One Square Foot Dance Step",
+    "year": "1994",
+    "decade": 90,
+    "medium": "painting",
+    "description": "mixed media on aluminum",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa99_0137",
+    "image2_root": null,
+    "small": {
+      "width": 307,
+      "height": 308
+    },
+    "large": {
+      "width": 499,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 186,
+    "slug": "round-angle-v-b-2002",
+    "title": "Round Angle V-B",
+    "year": "2002",
+    "decade": 0,
+    "medium": "painting",
+    "description": "iridescent water based enamel on molded plastic & steel",
+    "dimensions": "12.25\\\" diam. X 6\\\"d",
+    "image_root": "pa02_0115",
+    "image2_root": null,
+    "small": {
+      "width": 337,
+      "height": 281
+    },
+    "large": {
+      "width": 600,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 187,
+    "slug": "looks-like-it-1996",
+    "title": "Looks like It",
+    "year": "1996",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic, mixed media on aluminum",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa96_0105",
+    "image2_root": null,
+    "small": {
+      "width": 309,
+      "height": 306
+    },
+    "large": {
+      "width": 504,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 188,
+    "slug": "tonal-ii-1967",
+    "title": "Tonal - II",
+    "year": "1967",
+    "decade": 60,
+    "medium": "paper",
+    "description": "tempera on illustration board",
+    "dimensions": "8\\\"h X 9\\\"w",
+    "image_root": "wp67_0124",
+    "image2_root": null,
+    "small": {
+      "width": 329,
+      "height": 288
+    },
+    "large": {
+      "width": 569,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 189,
+    "slug": "tonal-iii-1967",
+    "title": "Tonal - III",
+    "year": "1967",
+    "decade": 60,
+    "medium": "paper",
+    "description": "tempera on illustration board",
+    "dimensions": "8\\\"h X 9\\\"w",
+    "image_root": "wp67_0125",
+    "image2_root": null,
+    "small": {
+      "width": 333,
+      "height": 284
+    },
+    "large": {
+      "width": 585,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 190,
+    "slug": "flotation-1966",
+    "title": "Flotation",
+    "year": "1966",
+    "decade": 60,
+    "medium": "paper",
+    "description": "tempera on illustration board",
+    "dimensions": "7\\\"h X 9\\\"w",
+    "image_root": "wp66_0122",
+    "image2_root": null,
+    "small": {
+      "width": 351,
+      "height": 270
+    },
+    "large": {
+      "width": 649,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 191,
+    "slug": "tonal-oo-1966",
+    "title": "Tonal - OO",
+    "year": "1966",
+    "decade": 60,
+    "medium": "paper",
+    "description": "tempera on illustration board",
+    "dimensions": "8\\\"h X 9\\\"w",
+    "image_root": "wp66_0123",
+    "image2_root": null,
+    "small": {
+      "width": 323,
+      "height": 293
+    },
+    "large": {
+      "width": 551,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 192,
+    "slug": "momboptic-shuffle-one-2002",
+    "title": "Momboptic Shuffle - one",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "ink jet, collage on coventry rag paper",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "wp02_0133",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 358
+    },
+    "large": {
+      "width": 370,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 193,
+    "slug": "momboptic-shuffle-two-2002",
+    "title": "Momboptic Shuffle - two",
+    "year": "2002",
+    "decade": 0,
+    "medium": "paper",
+    "description": "ink jet, collage on coventry rag paper",
+    "dimensions": "24\\\"h X 18\\\"w",
+    "image_root": "wp02_0134",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 357
+    },
+    "large": {
+      "width": 370,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 194,
+    "slug": "functional-box-a1-2002",
+    "title": "Functional Box - A1",
+    "year": "2002",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "colorshift acrylic, resin on poplar, toya burl, birdseye maple veneer",
+    "dimensions": "4\\\"h X 13\\\"w X 8\\\"d",
+    "image_root": "bx02_0153",
+    "image2_root": "bx02_0154",
+    "small": {
+      "width": 357,
+      "height": 265
+    },
+    "large": {
+      "width": 672,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 195,
+    "slug": "functional-box-b-ii-2002",
+    "title": "Functional Box B-II",
+    "year": "2002",
+    "decade": 0,
+    "medium": "boxes",
+    "description": "colorshift acrylic, fused dichroic glass on poplar & bubinga",
+    "dimensions": "4.75\\\"h X 6\\\"w X 6\\\"d",
+    "image_root": "bx02_0155",
+    "image2_root": null,
+    "small": {
+      "width": 342,
+      "height": 276
+    },
+    "large": {
+      "width": 619,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 196,
+    "slug": "peters-neck-point-1991",
+    "title": "Peter's Neck Point",
+    "year": "1991",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "12\\\"h X 12\\\"w",
+    "image_root": "pa91_0085",
+    "image2_root": null,
+    "small": {
+      "width": 309,
+      "height": 307
+    },
+    "large": {
+      "width": 503,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 197,
+    "slug": "pink-highlight-1987",
+    "title": "Pink Highlight",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl film on vinyl plywood laminate",
+    "dimensions": "28\\\"h X 15\\\"w",
+    "image_root": "pa87_0064",
+    "image2_root": null,
+    "small": {
+      "width": 253,
+      "height": 374
+    },
+    "large": {
+      "width": 338,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 198,
+    "slug": "poolside-1992",
+    "title": "Poolside",
+    "year": "1992",
+    "decade": 90,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "12\\\"h X  12\\\"w",
+    "image_root": "pa92_0086",
+    "image2_root": null,
+    "small": {
+      "width": 309,
+      "height": 307
+    },
+    "large": {
+      "width": 503,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 199,
+    "slug": "potential-difference-1982",
+    "title": "Potential Difference",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas & wood",
+    "dimensions": "77\\\"h X 119\\\"w",
+    "image_root": "pa82_0075",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 239
+    },
+    "large": {
+      "width": 750,
+      "height": 484
+    },
+    "available": false
+  },
+  {
+    "id": 200,
+    "slug": "power-of-seeing-1982",
+    "title": "Power of Seeing",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas with wood & mirror",
+    "dimensions": "89\\\"h X 111\\\"w",
+    "image_root": "pa82_0073",
+    "image2_root": null,
+    "small": {
+      "width": 345,
+      "height": 274
+    },
+    "large": {
+      "width": 630,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 201,
+    "slug": "power-of-suggestion-1981",
+    "title": "Power of Suggestion",
+    "year": "1981-82",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "54\\\"h X 46\\\"w",
+    "image_root": "pa82_0074",
+    "image2_root": null,
+    "small": {
+      "width": 285,
+      "height": 333
+    },
+    "large": {
+      "width": 428,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 202,
+    "slug": "reflected-illusion-squared-1976",
+    "title": "Reflected Illusion Squared",
+    "year": "1976-78",
+    "decade": 70,
+    "medium": "installation",
+    "description": "mixed media, plate glass mirror",
+    "dimensions": "96\\\"h X 198\\\"w X 60\\\"d",
+    "image_root": "in78_0007",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 245
+    },
+    "large": {
+      "width": 750,
+      "height": 497
+    },
+    "available": true
+  },
+  {
+    "id": 203,
+    "slug": "reverse-reference-grounded-model-1980",
+    "title": "Reverse Reference Grounded (model)",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "acrylic, wood, mirror",
+    "dimensions": "8.75\\\"h X 15.75\\\"w X 13.75\\\"d",
+    "image_root": "sc80_0149",
+    "image2_root": null,
+    "small": {
+      "width": 346,
+      "height": 274
+    },
+    "large": {
+      "width": 631,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 204,
+    "slug": "reflected-sky-horizon-window-1977",
+    "title": "Reflected Sky Horizon Window",
+    "year": "1977",
+    "decade": 70,
+    "medium": "sculpture",
+    "description": "steel, mirror, cast concrete",
+    "dimensions": "75.5\\\"h X 108\\\"w X 40\\\"d",
+    "image_root": "sc77_0016",
+    "image2_root": null,
+    "small": {
+      "width": 342,
+      "height": 277
+    },
+    "large": {
+      "width": 616,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 205,
+    "slug": "sassaloon-70-1970",
+    "title": "Sassaloon 70",
+    "year": "1970",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin, fiberglass, mixed media",
+    "dimensions": "72\\\"h X 60\\\"w",
+    "image_root": "pa70_0032",
+    "image2_root": null,
+    "small": {
+      "width": 283,
+      "height": 334
+    },
+    "large": {
+      "width": 424,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 206,
+    "slug": "scintillator-1981",
+    "title": "Scintillator",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "45\\\"h X 54\\\"w",
+    "image_root": "pa81_0005",
+    "image2_root": null,
+    "small": {
+      "width": 340,
+      "height": 278
+    },
+    "large": {
+      "width": 610,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 207,
+    "slug": "serpent-treader-1987",
+    "title": "Serpent Treader",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on vinyl-plywood laminate",
+    "dimensions": "29\\\"h X 21.5\\\"w",
+    "image_root": "pa87_0066",
+    "image2_root": null,
+    "small": {
+      "width": 265,
+      "height": 357
+    },
+    "large": {
+      "width": 371,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 208,
+    "slug": "skywatcher-3-model-1981",
+    "title": "Skywatcher - 3 (model)",
+    "year": "1981",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "acrylic, wood, mirror",
+    "dimensions": "13\\\"h X 12.5\\\"w X 9.75",
+    "image_root": "sc87_0150",
+    "image2_root": null,
+    "small": {
+      "width": 345,
+      "height": 274
+    },
+    "large": {
+      "width": 629,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 209,
+    "slug": "spectra-1982",
+    "title": "Spectra",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas with wood",
+    "dimensions": "9\\\"h X 82\\\"w",
+    "image_root": "pa82_0071",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 48
+    },
+    "large": {
+      "width": 750,
+      "height": 97
+    },
+    "available": false
+  },
+  {
+    "id": 210,
+    "slug": "split-shift-vertical-detail-1-top-2002",
+    "title": "Split Shift Vertical (detail 1 - top)",
+    "year": "2002",
+    "decade": 0,
+    "medium": "sculpture",
+    "description": "colorshift vinyl, waterbase enamel, urethane on wood",
+    "dimensions": "103\\\"h X 1\\\"w X 3\\\"d",
+    "image_root": "sc02_0120",
+    "image2_root": "sc02_0121",
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 375,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 211,
+    "slug": "standing-act-1973",
+    "title": "Standing Act",
+    "year": "1973",
+    "decade": 70,
+    "medium": "sculpture",
+    "description": "wood, acrylic, lacquer & glass",
+    "dimensions": "60\\\"h X 8.5\\\"w X 14.5\\\"d",
+    "image_root": "sc73_0039",
+    "image2_root": null,
+    "small": {
+      "width": 191,
+      "height": 495
+    },
+    "large": {
+      "width": 193,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 212,
+    "slug": "suspended-vertical-1981",
+    "title": "Suspended Vertical",
+    "year": "1981",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "iridescent acrylic on birch plywood w/ mirror",
+    "dimensions": "56.5\\\"h X 22.5\\\"w X 11\\\"d",
+    "image_root": "sc87_0142",
+    "image2_root": null,
+    "small": {
+      "width": 219,
+      "height": 432
+    },
+    "large": {
+      "width": 254,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 213,
+    "slug": "ten-degree-slant-f-o-r-40th-scale-1980",
+    "title": "Ten Degree Slant - F.O.R. 40th scale",
+    "year": "1980",
+    "decade": 80,
+    "medium": "sculpture",
+    "description": "acrylic, birch plywood, mirror",
+    "dimensions": "33\\\"h X 36\\\"w X 8\\\"d",
+    "image_root": "sc80_0145",
+    "image2_root": null,
+    "small": {
+      "width": 284,
+      "height": 334
+    },
+    "large": {
+      "width": 424,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 214,
+    "slug": "thrust-buster-1981",
+    "title": "Thrust Buster",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "sprayed acrylic on canvas",
+    "dimensions": "67\\\"h X 60\\\"w",
+    "image_root": "pa81_0047",
+    "image2_root": null,
+    "small": {
+      "width": 291,
+      "height": 325
+    },
+    "large": {
+      "width": 448,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 215,
+    "slug": "tua-jewel-1972",
+    "title": "Tua Jewel",
+    "year": "1972",
+    "decade": 70,
+    "medium": "installation",
+    "description": "projected light, dyed yarn",
+    "dimensions": "60\\\"h X 60\\\"w X 1\\\"d",
+    "image_root": "in72_0021",
+    "image2_root": null,
+    "small": {
+      "width": 324,
+      "height": 293
+    },
+    "large": {
+      "width": 552,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 216,
+    "slug": "tupos-1989",
+    "title": "Tupos",
+    "year": "1989",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "30\\\"h X 32\\\"w",
+    "image_root": "pa89_0067",
+    "image2_root": null,
+    "small": {
+      "width": 320,
+      "height": 296
+    },
+    "large": {
+      "width": 541,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 217,
+    "slug": "utterance-1987",
+    "title": "Utterance",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylicon vinyl-plywood laminate",
+    "dimensions": "14\\\"h X 23\\\"w",
+    "image_root": "pa87_0068",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 237
+    },
+    "large": {
+      "width": 750,
+      "height": 480
+    },
+    "available": true
+  },
+  {
+    "id": 218,
+    "slug": "utterance-ii-1988",
+    "title": "Utterance II",
+    "year": "1988",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on wood laminate",
+    "dimensions": "26\\\"h X 50\\\"w",
+    "image_root": "pa88_0069",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 191
+    },
+    "large": {
+      "width": 750,
+      "height": 388
+    },
+    "available": true
+  },
+  {
+    "id": 219,
+    "slug": "v-g-1971",
+    "title": "V-G",
+    "year": "1971",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin",
+    "dimensions": "30\\\"h X 36\\\"w",
+    "image_root": "pa71_0034",
+    "image2_root": null,
+    "small": {
+      "width": 343,
+      "height": 276
+    },
+    "large": {
+      "width": 619,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 220,
+    "slug": "waterwalker-two-1993",
+    "title": "Waterwalker - Two",
+    "year": "1993",
+    "decade": 90,
+    "medium": "paper",
+    "description": "acrylic on wc paper",
+    "dimensions": "30\\\"h X 22\\\"w",
+    "image_root": "wp87_0128",
+    "image2_root": null,
+    "small": {
+      "width": 266,
+      "height": 355
+    },
+    "large": {
+      "width": 374,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 221,
+    "slug": "what-scale-1981",
+    "title": "What Scale",
+    "year": "1981",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas",
+    "dimensions": "16\\\"h X 61\\\"w",
+    "image_root": "pa81_0042",
+    "image2_root": null,
+    "small": {
+      "width": 158,
+      "height": 599
+    },
+    "large": {
+      "width": 132,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 222,
+    "slug": "whos-question-1971",
+    "title": "Who's Question",
+    "year": "1971",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "95\\\"h X 48\\\"w",
+    "image_root": "pa71_0036",
+    "image2_root": null,
+    "small": {
+      "width": 220,
+      "height": 430
+    },
+    "large": {
+      "width": 256,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 223,
+    "slug": "winds-of-asymmetry-1982",
+    "title": "Winds of Asymmetry",
+    "year": "1982",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on canvas with wood",
+    "dimensions": "81\\\"h X 61\\\"w",
+    "image_root": "pa82_0072",
+    "image2_root": null,
+    "small": {
+      "width": 269,
+      "height": 352
+    },
+    "large": {
+      "width": 382,
+      "height": 500
+    },
+    "available": false
+  },
+  {
+    "id": 224,
+    "slug": "zabdiel-5-1987",
+    "title": "Zabdiel - 5",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl film on wood laminate",
+    "dimensions": "48\\\"h X 26\\\"w",
+    "image_root": "pa87_0078",
+    "image2_root": null,
+    "small": {
+      "width": 228,
+      "height": 416
+    },
+    "large": {
+      "width": 273,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 225,
+    "slug": "zabdiel-6-1987",
+    "title": "Zabdiel - 6",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic, vinyl film on wood laminate",
+    "dimensions": "48\\\"h X 26\\\"w",
+    "image_root": "pa87_0079",
+    "image2_root": null,
+    "small": {
+      "width": 228,
+      "height": 415
+    },
+    "large": {
+      "width": 274,
+      "height": 500
+    },
+    "available": true
+  },
+  {
+    "id": 226,
+    "slug": "zabdiel-3-1987",
+    "title": "Zabdiel - 3",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on wood laminate",
+    "dimensions": "26\\\"h X 50\\\"w",
+    "image_root": "pa87_0076",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 189
+    },
+    "large": {
+      "width": 750,
+      "height": 383
+    },
+    "available": true
+  },
+  {
+    "id": 227,
+    "slug": "zabdiel-4-1987",
+    "title": "Zabdiel - 4",
+    "year": "1987",
+    "decade": 80,
+    "medium": "painting",
+    "description": "acrylic on wood laminate",
+    "dimensions": "26\\\"h X 50\\\"w",
+    "image_root": "pa87_0077",
+    "image2_root": null,
+    "small": {
+      "width": 370,
+      "height": 191
+    },
+    "large": {
+      "width": 750,
+      "height": 388
+    },
+    "available": true
+  },
+  {
+    "id": 228,
+    "slug": "zopen-1970",
+    "title": "Zopen",
+    "year": "1970",
+    "decade": 70,
+    "medium": "painting",
+    "description": "cast resin, fiberglass",
+    "dimensions": "20\\\"h X 24\\\"w",
+    "image_root": "pa70_0033",
+    "image2_root": null,
+    "small": {
+      "width": 321,
+      "height": 295
+    },
+    "large": {
+      "width": 543,
+      "height": 500
+    },
+    "available": false
+  }
+]
