@@ -8,7 +8,7 @@ export function normalizeDimensions(raw) {
     .trim();
 }
 
-const HW_PATTERN = /(\d+(?:\.\d+)?)["″]?\s*h\s*[X×]\s*(\d+(?:\.\d+)?)["″]?\s*w/i;
+const HW_PATTERN = /(?<![/\d])(\d+(?:\.\d+)?)["″]?\s*h\s*[X×]\s*(\d+(?:\.\d+)?)["″]?\s*w/i;
 
 export function parseDimensions(raw) {
   if (!raw) return null;

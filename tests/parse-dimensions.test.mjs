@@ -45,3 +45,20 @@ test('parseDimensions returns null for empty string', () => {
 test('parseDimensions returns null for unparseable string', () => {
   assert.equal(parseDimensions('various sizes'), null);
 });
+
+test('parseDimensions returns null for fractional-inch height (N x/y form)', () => {
+  assert.equal(parseDimensions('22 3/8\\"h X 30\\"w'), null);
+});
+
+test('parseDimensions returns null for fractional-inch in 3D dimensions', () => {
+  assert.equal(parseDimensions('25 3/8\\"h X 12\\"w X 10\\"d'), null);
+});
+
+test('parseDimensions still parses clean decimal heights', () => {
+  // Regression check that the lookbehind didn't break the canonical case.
+  assert.deepEqual(parseDimensions('70.75\\"h X 60\\"w'), {
+    height: 70.75,
+    width: 60,
+    unit: 'in',
+  });
+});
