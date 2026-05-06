@@ -38,7 +38,6 @@ test('slugifyWork handles 4-digit hyphenated year', () => {
 });
 
 test('slugify removes smart apostrophes (U+2018, U+2019)', () => {
-  // Use explicit escapes to prevent editor/tool normalization
   assert.equal(slugify('Greg’s Work'), 'gregs-work');
   assert.equal(slugify('‘Quoted’ Title'), 'quoted-title');
 });
