@@ -31,7 +31,7 @@ test('parseFolioRow handles title containing a comma', () => {
   assert.equal(row.description, 'cast resin, fiberglass');
 });
 
-test('parseFolioSql returns 227 rows from the real backup', async () => {
+test('parseFolioSql returns 228 rows from the real backup', async () => {
   const fs = await import('node:fs/promises');
   const path = await import('node:path');
   const sql = await fs.readFile(
@@ -47,5 +47,6 @@ test('parseFolioSql returns 227 rows from the real backup', async () => {
   assert.equal(counts.painting, 106);
   assert.equal(counts.paper, 82);
   assert.equal(counts.sculpture, 18);
+  assert.equal(counts.boxes, 18);
   assert.equal(counts.installation, 4);
 });

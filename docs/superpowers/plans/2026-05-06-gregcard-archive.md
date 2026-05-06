@@ -4,7 +4,7 @@
 
 **Goal:** Build a long-lived archival static site for Greg Card's body of work (1963–2003) using Astro, deployed to Netlify, replacing the legacy PHP site at gregcard.com.
 
-**Architecture:** Astro static site generator reads structured content (JSON for the 227-work folio, MDX for essays) extracted once from a cPanel backup of the legacy site, generates one HTML page per work and per content page at build time, deploys to Netlify with `_redirects` mapping every legacy URL (`folio.php?…`, `intro.html`, `popup.php?image=…`, etc.) to its new home. Output is plain static HTML/CSS/images — no runtime server, no database, minimal JS.
+**Architecture:** Astro static site generator reads structured content (JSON for the 228-work folio, MDX for essays) extracted once from a cPanel backup of the legacy site, generates one HTML page per work and per content page at build time, deploys to Netlify with `_redirects` mapping every legacy URL (`folio.php?…`, `intro.html`, `popup.php?image=…`, etc.) to its new home. Output is plain static HTML/CSS/images — no runtime server, no database, minimal JS.
 
 **Tech Stack:** Astro 4.x, Node 20+, Netlify static hosting, Sharp (Astro image pipeline), self-hosted Crimson Pro + Inter fonts.
 
@@ -520,7 +520,7 @@ test('parseFolioRow handles title containing a comma', () => {
   assert.equal(row.description, 'cast resin, fiberglass');
 });
 
-test('parseFolioSql returns 227 rows from the real backup', async () => {
+test('parseFolioSql returns 228 rows from the real backup', async () => {
   const fs = await import('node:fs/promises');
   const path = await import('node:path');
   const sql = await fs.readFile(
@@ -528,7 +528,7 @@ test('parseFolioSql returns 227 rows from the real backup', async () => {
     'utf8'
   );
   const rows = parseFolioSql(sql);
-  assert.equal(rows.length, 227);
+  assert.equal(rows.length, 228);
   // Spot-check the first row
   assert.equal(rows[0].image_root, 'in68_0029');
   // Spot-check medium counts
@@ -719,8 +719,8 @@ async function main() {
   const folio = buildFolioJson(rows);
 
   // Sanity assertions
-  if (folio.length !== 227) {
-    throw new Error(`expected 227 works, got ${folio.length}`);
+  if (folio.length !== 228) {
+    throw new Error(`expected 228 works, got ${folio.length}`);
   }
   const slugs = new Set();
   for (const w of folio) {
@@ -756,7 +756,7 @@ Expected: all PASS (4 tests).
 node scripts/extract-folio.mjs
 ```
 
-Expected output: `wrote 227 works → src/data/folio.json`.
+Expected output: `wrote 228 works → src/data/folio.json`.
 
 Verify: `cat src/data/folio.json | head -40` shows JSON array of work objects with `slug`, `title`, etc.
 
@@ -764,7 +764,7 @@ Verify: `cat src/data/folio.json | head -40` shows JSON array of work objects wi
 
 ```bash
 git add scripts/extract-folio.mjs tests/extract-folio.test.mjs src/data/folio.json
-git commit -m "feat(extract): parse SQL dump → folio.json with stable slugs (227 works)"
+git commit -m "feat(extract): parse SQL dump → folio.json with stable slugs (228 works)"
 ```
 
 ---
@@ -1215,7 +1215,7 @@ This is the typed accessor that pages use to query `folio.json`. Centralizing it
 ```typescript
 import folio from '../data/folio.json';
 
-export type Medium = 'painting' | 'paper' | 'sculpture' | 'installation';
+export type Medium = 'painting' | 'paper' | 'sculpture' | 'boxes' | 'installation';
 
 export interface Work {
   id: number;
@@ -1296,7 +1296,7 @@ export function groupByDecade(works: Work[]): Array<{ decade: number; label: str
     }));
 }
 
-export const MEDIA: Medium[] = ['painting', 'paper', 'sculpture', 'installation'];
+export const MEDIA: Medium[] = ['painting', 'paper', 'sculpture', 'boxes', 'installation'];
 ```
 
 - [ ] **Step 2: Verify TypeScript compiles**
@@ -1567,7 +1567,7 @@ npm run dev
 ```
 
 Visit http://localhost:4321/folio. Verify:
-- Header shows "Folio · 227 works · 1963–2003".
+- Header shows "Folio · 228 works · 1963–2003".
 - Decade sections render in order: 2000s, 1990s, 1980s, 1970s, 1960s.
 - Click "Painting" → only painting cards visible; sculpture/installation/etc. hidden.
 - Click "All" → everything returns.
@@ -1791,14 +1791,14 @@ Visit http://localhost:4321/folio/dyad-1980 (or pick any slug from `src/data/fol
 
 Stop the dev server.
 
-- [ ] **Step 4: Verify build generates 227 work pages**
+- [ ] **Step 4: Verify build generates 228 work pages**
 
 ```bash
 npm run build
 ls dist/folio/ | wc -l
 ```
 
-Expected: 228 (227 work files + `index.html`).
+Expected: 229 (228 work files + `index.html`).
 
 - [ ] **Step 5: Commit**
 
@@ -2676,7 +2676,7 @@ tail -10 public/_redirects
 wc -l public/_redirects
 ```
 
-Expected: 18 static lines + 227 popup-per-work rules = ~245 useful lines (plus comments).
+Expected: 18 static lines + 228 popup-per-work rules = ~246 useful lines (plus comments).
 
 - [ ] **Step 4: Build and verify `_redirects` lands in `dist/`**
 
@@ -2844,8 +2844,8 @@ Expected output:
 ```
 wrote NN redirect rules → public/_redirects
 [astro] ...build output...
-✓ all 227 slugs unique
-✓ 227 work pages exist
+✓ all 228 slugs unique
+✓ 228 work pages exist
 ✓ all images exist
 ✓ all core pages built
 ✓ all redirect targets resolve

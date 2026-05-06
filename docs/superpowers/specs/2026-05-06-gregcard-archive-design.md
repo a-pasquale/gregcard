@@ -43,13 +43,13 @@ A cPanel backup is extracted at `_backup/backup-5.6.2026_09-16-34_gregcard/`. Co
 | `large_width` / `large_height` | smallint | |
 | `available` | tinyint(1) | for-sale flag — kept in data, **not displayed** |
 | `title` | varchar(255) | |
-| `medium` | varchar(25) | one of: `painting` (106), `paper` (82), `sculpture` (18), `installation` (4) |
+| `medium` | varchar(25) | one of: `painting` (106), `paper` (82), `sculpture` (18), `boxes` (18), `installation` (4) |
 | `description` | varchar(255) | materials line, e.g., `acrylic on canvas with mirror` |
 | `decade` | tinyint(2) | one of: 0 (2000s), 60, 70, 80, 90 |
 | `the_year` | varchar(16) | e.g., `1980` or `1976-80` |
 | `dimensions` | varchar(35) | e.g., `60\"h X 70.75\"w X 10\"d` |
 
-**Inventory:** 227 works total. 6 works have a non-empty `image2_root`. Combined unique image stems (primary + secondary) = 234, matching exactly the 234 files in `large/`. No orphans, no missing files.
+**Inventory:** 228 works total. 6 works have a non-empty `image2_root`. Combined unique image stems (primary + secondary) = 234, matching exactly the 234 files in `large/`. No orphans, no missing files. The 5 media break down as painting (106), paper (82), sculpture (18), boxes (18), installation (4) — `boxes` is a sculptural-object body of work Greg classified separately, primarily late-1990s through 2002 (image-root prefix `bx`). Preserved in the archive per the artist's own taxonomy.
 
 ### Other backup HTML to absorb
 
@@ -76,7 +76,7 @@ A cPanel backup is extracted at `_backup/backup-5.6.2026_09-16-34_gregcard/`. Co
 gregscard/
 ├── src/
 │   ├── data/
-│   │   ├── folio.json           # 227 works, extracted from SQL dump
+│   │   ├── folio.json           # 228 works, extracted from SQL dump
 │   │   ├── biography.json       # bio paragraph + lists from biog_*.html
 │   │   └── bibliography.json    # critical writings list from biog_bibl.html
 │   ├── content/
@@ -180,17 +180,17 @@ Declared in `netlify.toml` for static cases; `public/_redirects` auto-generated 
 /popup.php?image=<root>    → /folio/<slug>
 ```
 
-For the legacy filter URLs (`/folio.php?media=painting&decade=80`), the new `/folio` page reads the query string on first load via the same small JS handler that powers the filter pills, and applies the matching medium and scrolls to the matching decade anchor. Without JS, the redirect still lands on `/folio` and all 227 works are visible — the visitor sees the full archive instead of a filtered slice, which for an archive is acceptable graceful degradation.
+For the legacy filter URLs (`/folio.php?media=painting&decade=80`), the new `/folio` page reads the query string on first load via the same small JS handler that powers the filter pills, and applies the matching medium and scrolls to the matching decade anchor. Without JS, the redirect still lands on `/folio` and all 228 works are visible — the visitor sees the full archive instead of a filtered slice, which for an archive is acceptable graceful degradation.
 
 ## 6. Components
 
 ### 6.1 Folio browse — `/folio`
 
-Single page. Title block ("Folio · 227 works · 1963–2003") plus filter pills (`All`, `Painting`, `Paper`, `Sculpture`, `Installation`). Below: thumbs grouped under decade headings (`2000s`, `1990s`, `1980s`, `1970s`, `1960s`, in that order). Each decade heading is an in-page anchor (`#1990s`).
+Single page. Title block ("Folio · 228 works · 1963–2003") plus filter pills (`All`, `Painting`, `Paper`, `Sculpture`, `Boxes`, `Installation`). Below: thumbs grouped under decade headings (`2000s`, `1990s`, `1980s`, `1970s`, `1960s`, in that order). Each decade heading is an in-page anchor (`#1990s`).
 
 - Sort within decade: `the_year DESC, title ASC`.
 - Each thumb: `<a>` to `/folio/<slug>` with `aria-label="<title> (<year>) — <medium>"`. Title appears below or on hover.
-- All 227 thumbs render at build time, lazy-loaded with `loading="lazy"` and `decoding="async"`.
+- All 228 thumbs render at build time, lazy-loaded with `loading="lazy"` and `decoding="async"`.
 - Filter pills toggle a `data-active-medium` attribute on the container; CSS hides non-matching cards. Without JS, all works show — fully functional.
 - Mobile: 2-column grid; decade headers `position: sticky` at top.
 
@@ -310,7 +310,7 @@ Friendly note, link back to `/` and `/folio`. If the URL path matches the patter
 **Build pipeline**
 - `npm run build` invokes Astro, which:
   1. Reads `folio.json`, `biography.json`, `bibliography.json`, MDX essays.
-  2. Generates one HTML page per route (227 work pages + ~12 other pages).
+  2. Generates one HTML page per route (228 work pages + ~12 other pages).
   3. Optimizes images into `dist/_astro/` with responsive `srcset`.
   4. Runs `scripts/generate-redirects.mjs` to emit `dist/_redirects`.
   5. Runs `scripts/validate-build.mjs` (assertions described in §10).
@@ -351,7 +351,7 @@ No unit tests, no E2E suite. The site is ~12 page templates with zero runtime lo
 
 **Post-deploy smoke checklist (manual, run on staging):**
 - [ ] Browse `/folio`; spot-check 10 thumbs across decades and media render.
-- [ ] All four medium pills filter correctly; "All" restores full set.
+- [ ] All five medium pills filter correctly; "All" restores full set.
 - [ ] All five decade anchors scroll into view.
 - [ ] Pick 5 random work pages: image loads, metadata renders, OG tags present, JSON-LD validates.
 - [ ] Curl-check 20 legacy URLs → expected 301 + final 200.
@@ -362,7 +362,7 @@ No unit tests, no E2E suite. The site is ~12 page templates with zero runtime lo
 ## 11. Phasing
 
 1. **Scaffold + data extraction.** Astro project, base layout, global styles, nav, all extraction scripts producing committed JSON/MDX.
-2. **Folio MVP.** `/folio` timeline + filter, `/folio/<slug>` template, OG/JSON-LD, all 227 work pages building.
+2. **Folio MVP.** `/folio` timeline + filter, `/folio/<slug>` template, OG/JSON-LD, all 228 work pages building.
 3. **Static pages.** `/`, `/intro`, `/contact`, `/links`, `/404`.
 4. **Biography & writings.** `/biography`, `/bibliography`, `/writings/*`. Draft synthesized bio for user review.
 5. **Redirects, headers, build validators.** `netlify.toml`, generated `_redirects`, validators wired into `npm run build`.
@@ -379,7 +379,7 @@ No unit tests, no E2E suite. The site is ~12 page templates with zero runtime lo
 
 ## 13. Out of scope for this project
 
-- A search index (227 works browse easily; can be added later if needed).
+- A search index (228 works browse easily; can be added later if needed).
 - Free-text tagging beyond the existing `medium`/`decade` axes.
 - A CMS or admin UI (edits are JSON/MDX in git).
 - E-commerce or inquiry forms (mailto link is sufficient).
