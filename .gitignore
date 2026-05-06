@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# Backup (large; not source-of-truth for git)
+_backup/
+backup-*.tar.gz
+
+# Visual companion artifacts
+.superpowers/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
+.env.*

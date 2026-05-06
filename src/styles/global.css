@@ -1,0 +1,17 @@
+:root {
+  --bg: #fbfaf7;
+  --text: #1a1a1a;
+  --muted: #7a7368;
+  --rule: #e8e4dc;
+  --accent: #5d4f3f;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
