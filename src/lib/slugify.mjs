@@ -3,7 +3,7 @@ export function slugify(input) {
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')          // strip combining marks
     .toLowerCase()
-    .replace(/[''']/g, '')          // drop ASCII + smart apostrophes
+    .replace(/['‘’]/g, '')          // drop ASCII + smart apostrophes
     .replace(/[^a-z0-9]+/g, '-')              // non-alphanum → dash
     .replace(/^-+|-+$/g, '');                 // trim leading/trailing dashes
 }

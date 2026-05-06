@@ -36,3 +36,9 @@ test('slugifyWork uses first year of range', () => {
 test('slugifyWork handles 4-digit hyphenated year', () => {
   assert.equal(slugifyWork('Double Vision', '1979-1980'), 'double-vision-1979');
 });
+
+test('slugify removes smart apostrophes (U+2018, U+2019)', () => {
+  // Use explicit escapes to prevent editor/tool normalization
+  assert.equal(slugify('Greg’s Work'), 'gregs-work');
+  assert.equal(slugify('‘Quoted’ Title'), 'quoted-title');
+});
