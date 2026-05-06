@@ -1,17 +1,19 @@
 ---
-import '../styles/global.css';
+import Base from '../layouts/Base.astro';
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Greg Card</title>
-  </head>
-  <body>
-    <main>
-      <h1>Greg Card</h1>
-      <p>Site under construction.</p>
-    </main>
-  </body>
-</html>
+<Base title="Greg Card" current="home" description="Greg Card · contemporary abstractions, 1963–2003.">
+  <section class="hero">
+    <p class="label">Contemporary abstractions</p>
+    <h1>Greg Card</h1>
+    <p class="muted">1963–2003</p>
+    <p>An archive of paintings, sculpture, paper, and installations.</p>
+    <p><a href="/folio">Enter the folio →</a></p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding: var(--space-6) 0;
+    max-width: var(--max-width-prose);
+  }
+</style>

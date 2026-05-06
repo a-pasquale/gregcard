@@ -1,0 +1,59 @@
+---
+const { current } = Astro.props;
+const links = [
+  { href: '/', label: 'Home', key: 'home' },
+  { href: '/intro', label: 'Intro', key: 'intro' },
+  { href: '/folio', label: 'Folio', key: 'folio' },
+  { href: '/biography', label: 'Biography', key: 'biography' },
+  { href: '/bibliography', label: 'Bibliography', key: 'bibliography' },
+  { href: '/writings', label: 'Writings', key: 'writings' },
+  { href: '/links', label: 'Links', key: 'links' },
+  { href: '/contact', label: 'Contact', key: 'contact' },
+];
+---
+<nav class="site-nav" aria-label="Primary">
+  <a class="brand" href="/">Greg Card</a>
+  <ul>
+    {links.filter((l) => l.key !== 'home').map((l) => (
+      <li><a href={l.href} aria-current={current === l.key ? 'page' : undefined}>{l.label}</a></li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--space-3) var(--space-5);
+    padding: var(--space-4) 0;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: var(--space-5);
+  }
+  .brand {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+  .site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-4);
+    margin-left: auto;
+  }
+  .site-nav a {
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+  .site-nav a[aria-current='page'] {
+    color: var(--text);
+  }
+  .site-nav a:hover { color: var(--text); }
+  @media (max-width: 640px) {
+    .site-nav ul { margin-left: 0; }
+  }
+</style>
