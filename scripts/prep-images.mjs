@@ -13,7 +13,11 @@ const SRC_BASE = path.join(
 const DEST_BASE = path.join(REPO_ROOT, 'public/images');
 const FOLIO_JSON = path.join(REPO_ROOT, 'src/data/folio.json');
 
-const RENDITIONS = ['thumb', 'small', 'large'];
+// Renditions that are raw-copied from source (no transformation).
+const COPY_RENDITIONS = ['small', 'large'];
+
+// Thumb output suffix is hardcoded — we always generate from small/, never from source thumbs.
+const THUMB_SUFFIX = 'thm.jpg';
 
 async function copyOne(srcDir, destDir, filename) {
   await fs.mkdir(destDir, { recursive: true });
@@ -28,73 +32,58 @@ async function main() {
     if (w.image2_root) stems.add(w.image2_root);
   }
 
-  // Discover suffixes per rendition by sampling the source directory.
-  // Thumbs in the source are .gif; we'll detect both jpg and gif.
+  // Discover suffixes for copy renditions (small, large) by sampling source directories.
   const suffixes = {};
-  for (const r of RENDITIONS) {
+  for (const r of COPY_RENDITIONS) {
     const files = await fs.readdir(path.join(SRC_BASE, r));
     const f = files.find((x) => /^[a-z]{2}\d{2}_\d{4}.*\.(jpg|gif)$/.test(x));
     if (!f) throw new Error(`no jpg/gif in ${r}/`);
     suffixes[r] = f.replace(/^[a-z]{2}\d{2}_\d{4}/, '');
   }
 
+  const sharp = (await import('sharp')).default;
   let copied = 0;
   const missing = [];
+
   for (const stem of stems) {
-    for (const r of RENDITIONS) {
+    // --- small and large: raw byte copy ---
+    for (const r of COPY_RENDITIONS) {
       const srcFilename = `${stem}${suffixes[r]}`;
       const srcPath = path.join(SRC_BASE, r, srcFilename);
-      // Output is always .jpg — strip any .gif extension and replace with .jpg
-      const destFilename = srcFilename.replace(/\.gif$/, '.jpg');
-      const destPath = path.join(DEST_BASE, r, destFilename);
+      const destDir = path.join(DEST_BASE, r);
       try {
         await fs.access(srcPath);
-        const destDir = path.join(DEST_BASE, r);
-        if (srcFilename === destFilename) {
-          // Direct copy — same extension
-          await copyOne(path.join(SRC_BASE, r), destDir, srcFilename);
-        } else {
-          // Convert gif → jpg via sharp
-          const sharp = (await import('sharp')).default;
-          await fs.mkdir(destDir, { recursive: true });
-          await sharp(srcPath).jpeg({ quality: 85 }).toFile(destPath);
-        }
+        await copyOne(path.join(SRC_BASE, r), destDir, srcFilename);
         copied++;
       } catch {
-        missing.push(`${r}/${destFilename}`);
+        missing.push(`${r}/${srcFilename}`);
       }
+    }
+
+    // --- thumb: always regenerate from small/ at 600px wide ---
+    const smallSuffix = suffixes.small;
+    const smallFilename = `${stem}${smallSuffix}`;
+    const smallPath = path.join(DEST_BASE, 'small', smallFilename);
+    const thumbFilename = `${stem}${THUMB_SUFFIX}`;
+    const thumbPath = path.join(DEST_BASE, 'thumb', thumbFilename);
+    try {
+      await fs.access(smallPath);
+      await fs.mkdir(path.join(DEST_BASE, 'thumb'), { recursive: true });
+      await sharp(smallPath)
+        .resize({ width: 600, withoutEnlargement: true })
+        .jpeg({ quality: 82 })
+        .toFile(thumbPath);
+      copied++;
+    } catch {
+      missing.push(`thumb/${thumbFilename}`);
     }
   }
 
-  // If any files are still missing, try regenerating thumbs from small/ via sharp.
-  const stillMissing = [];
-  if (missing.length > 0) {
-    const sharp = (await import('sharp')).default;
-    for (const m of missing) {
-      if (!m.startsWith('thumb/')) { stillMissing.push(m); continue; }
-      const filename = m.slice('thumb/'.length);
-      const stem = filename.replace(/\.jpg$/, '').replace(/(thm|tnl)$/, '');
-      const smallSuffix = suffixes.small;
-      const smallFilename = `${stem}${smallSuffix}`;
-      const smallPath = path.join(SRC_BASE, 'small', smallFilename);
-      const destPath = path.join(DEST_BASE, 'thumb', filename);
-      try {
-        await fs.access(smallPath);
-        await fs.mkdir(path.dirname(destPath), { recursive: true });
-        await sharp(smallPath).resize({ width: 300, withoutEnlargement: true }).jpeg({ quality: 82 }).toFile(destPath);
-        copied++;
-        console.log(`  generated thumb from small: ${filename}`);
-      } catch {
-        stillMissing.push(m);
-      }
-    }
-  }
-
-  console.log(`copied ${copied} files; ${stillMissing.length} still missing`);
+  console.log(`processed ${copied} files; ${missing.length} missing`);
   console.log(`suffixes: ${JSON.stringify(suffixes)}`);
-  if (stillMissing.length) {
+  if (missing.length) {
     console.error('MISSING:');
-    stillMissing.forEach((m) => console.error('  ', m));
+    missing.forEach((m) => console.error('  ', m));
     process.exit(1);
   }
 }
