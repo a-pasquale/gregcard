@@ -1,0 +1,130 @@
+---
+import Base from '../../layouts/Base.astro';
+import WorkMeta from '../../components/WorkMeta.astro';
+import FolioCard from '../../components/FolioCard.astro';
+import { getAllWorks, getAdjacentWorks, getRelatedWorks, type Work } from '../../lib/folio';
+import { parseDimensions, normalizeDimensions } from '../../lib/parse-dimensions.mjs';
+
+export async function getStaticPaths() {
+  return getAllWorks().map((w) => ({ params: { slug: w.slug }, props: { work: w } }));
+}
+
+interface Props { work: Work; }
+const { work } = Astro.props;
+
+const { prev, next } = getAdjacentWorks(work.slug);
+const related = getRelatedWorks(work);
+
+const alt = `${work.title} (${work.year}), ${work.medium}`;
+const dims = parseDimensions(work.dimensions);
+
+const ogImage = new URL(`/images/large/${work.image_root}lrg.jpg`, Astro.site).toString();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'VisualArtwork',
+  name: work.title,
+  dateCreated: work.year,
+  artMedium: work.medium,
+  artworkSurface: work.description || undefined,
+  creator: { '@type': 'Person', name: 'Greg Card' },
+  ...(dims ? {
+    width: { '@type': 'QuantitativeValue', value: dims.width, unitCode: 'INH' },
+    height: { '@type': 'QuantitativeValue', value: dims.height, unitCode: 'INH' },
+  } : {}),
+  image: ogImage,
+};
+
+const description = `${work.title} (${work.year}). ${work.medium}${work.description ? ', ' + work.description : ''}.${dims ? ' ' + normalizeDimensions(work.dimensions) + '.' : ''}`;
+---
+<Base
+  title={work.title}
+  description={description}
+  current="folio"
+  ogImage={ogImage}
+  jsonLd={jsonLd}
+>
+  <article class="work">
+    <div class="work-image-wrap">
+      <a href={`/images/large/${work.image_root}lrg.jpg`}>
+        <img
+          src={`/images/large/${work.image_root}lrg.jpg`}
+          srcset={`/images/small/${work.image_root}sml.jpg ${work.small.width}w, /images/large/${work.image_root}lrg.jpg ${work.large.width}w`}
+          sizes="(max-width: 800px) 100vw, 800px"
+          width={work.large.width}
+          height={work.large.height}
+          alt={alt}
+          loading="eager"
+          decoding="async"
+        />
+      </a>
+      {work.image2_root && (
+        <img
+          class="work-image-secondary"
+          src={`/images/large/${work.image2_root}lrg.jpg`}
+          alt={`${alt} — additional view`}
+          loading="lazy"
+          decoding="async"
+        />
+      )}
+    </div>
+
+    <header class="work-head">
+      <h1>{work.title}</h1>
+      <WorkMeta work={work} />
+    </header>
+
+    <nav class="prev-next" aria-label="Adjacent works">
+      {prev ? <a href={`/folio/${prev.slug}`} rel="prev">← {prev.title} ({prev.year})</a> : <span />}
+      {next ? <a href={`/folio/${next.slug}`} rel="next">{next.title} ({next.year}) →</a> : <span />}
+    </nav>
+
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="related-heading">
+        <h2 id="related-heading" class="label">Related works</h2>
+        <div class="related-grid">
+          {related.map((w) => <FolioCard work={w} />)}
+        </div>
+      </section>
+    )}
+  </article>
+</Base>
+
+<style>
+  .work {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .work-image-wrap {
+    margin-bottom: var(--space-5);
+  }
+  .work-image-secondary {
+    margin-top: var(--space-3);
+  }
+  .work-head { margin-bottom: var(--space-6); }
+  .work-head h1 {
+    font-style: italic;
+    margin-bottom: var(--space-4);
+  }
+  .prev-next {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-3);
+    padding: var(--space-4) 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    font-size: 0.875rem;
+  }
+  .prev-next a { text-decoration: none; color: var(--muted); }
+  .prev-next a:hover { color: var(--text); }
+  .related { margin-top: var(--space-6); }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+    margin-top: var(--space-3);
+  }
+  @media (min-width: 640px) {
+    .related-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+</style>

@@ -1,0 +1,50 @@
+---
+import type { Work } from '../lib/folio';
+import { normalizeDimensions } from '../lib/parse-dimensions.mjs';
+
+interface Props { work: Work; }
+const { work } = Astro.props;
+const dims = normalizeDimensions(work.dimensions);
+---
+<dl class="work-meta">
+  <div>
+    <dt class="label">Year</dt>
+    <dd>{work.year}</dd>
+  </div>
+  <div>
+    <dt class="label">Medium</dt>
+    <dd>{work.medium}</dd>
+  </div>
+  {work.description && (
+    <div>
+      <dt class="label">Materials</dt>
+      <dd>{work.description}</dd>
+    </div>
+  )}
+  {dims && (
+    <div>
+      <dt class="label">Dimensions</dt>
+      <dd>{dims}</dd>
+    </div>
+  )}
+</dl>
+
+<style>
+  .work-meta {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-3);
+  }
+  .work-meta div {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    gap: var(--space-3);
+    align-items: baseline;
+  }
+  .work-meta dt { margin: 0; }
+  .work-meta dd { margin: 0; font-family: var(--font-serif); font-size: 1.0625rem; }
+  @media (max-width: 640px) {
+    .work-meta div { grid-template-columns: 1fr; gap: var(--space-1); }
+  }
+</style>
