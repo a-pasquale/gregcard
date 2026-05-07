@@ -7,7 +7,13 @@ const featured = getFeaturedWorks();
 ---
 <Base title="Greg Card" current="home" description="Greg Card · contemporary abstractions, 1963–2003.">
   <section class="hero">
-    <p class="label">Contemporary abstractions</p>
+    <img
+      class="hero-wordmark"
+      src="/brand/contempAbs.gif"
+      width="651"
+      height="82"
+      alt="Contemporary Abstraction"
+    />
     <h1>Greg Card</h1>
     <p class="meta muted">1963–2003 · paintings, paper, sculpture, boxes, installations</p>
     <p class="lead">
@@ -31,6 +37,13 @@ const featured = getFeaturedWorks();
   .hero {
     padding: var(--space-6) 0 var(--space-5);
     max-width: var(--max-width-prose);
+  }
+  .hero-wordmark {
+    width: 100%;
+    height: auto;
+    max-width: 651px;
+    display: block;
+    margin: 0 0 var(--space-4);
   }
   .hero h1 { margin: var(--space-2) 0; font-size: 3rem; }
   .hero .meta { font-size: 0.9375rem; }
