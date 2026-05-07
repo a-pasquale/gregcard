@@ -1,0 +1,254 @@
+# Static page renames
+/intro.html                 /intro                301
+/biog_bibl.html             /bibliography         301
+/biog_solo.html             /biography#solo       301
+/biog_grou.html             /biography#group      301
+/biog_awar.html             /biography#awards     301
+/biog_lect.html             /biography#lectures   301
+/biog_coll.html             /biography#collections 301
+/writeon.html               /writings             301
+/1999.html                  /writings/1999        301
+/acts_of_art.html           /writings/acts-of-art 301
+/adventures.html            /writings/adventures-in-actual-abstraction 301
+/notes_of_engagement.html   /writings/notes-on-engagement 301
+/statement.html             /writings/statement   301
+/links.html                 /links                301
+/contact.html               /contact              301
+/index.htm                  /                     301
+
+# PHP folio (no query string preserved — handled by client-side script on /folio)
+/folio.php                  /folio                301
+/folioBU.php                /folio                301
+
+# popup.php with no query — fallback to folio
+/popup.php                  /folio                301
+
+# Per-work popup.php redirects (image_root → slug)
+/popup.php image=in68_0029  /folio/all-airline-everything-two-cylinder-paintings-shown-1968  301!
+/popup.php image=sc80_0146  /folio/2-side-slant-1980  301!
+/popup.php image=pa96_0141  /folio/above-beyond-1996  301!
+/popup.php image=pa81_0041  /folio/abridgement-1981  301!
+/popup.php image=in80_0015  /folio/act-of-squared-reflection-1976  301!
+/popup.php image=pa67_0014  /folio/all-airline-everything-1967  301!
+/popup.php image=pa82_0049  /folio/central-contrary-1982  301!
+/popup.php image=pa82_0048  /folio/change-of-event-1982  301!
+/popup.php image=pa69_0025  /folio/com-69-detail-1969  301!
+/popup.php image=sc80_0144  /folio/complex-square-1-1980  301!
+/popup.php image=pa82_0052  /folio/image-data-1982  301!
+/popup.php image=pa89_0008  /folio/delandes-plovercrest-1989  301!
+/popup.php image=pa81_0045  /folio/dimensional-deviant-1981  301!
+/popup.php image=pa81_0044  /folio/dimensional-variant-1981  301!
+/popup.php image=pa81_0046  /folio/dimensional-warp-1981  301!
+/popup.php image=pa91_0084  /folio/disc-driver-1991  301!
+/popup.php image=pa96_0104  /folio/double-dutch-1996  301!
+/popup.php image=pa80_0040  /folio/double-vision-1979  301!
+/popup.php image=sc80_0143  /folio/dyad-1980  301!
+/popup.php image=pa82_0051  /folio/event-horizon-1982  301!
+/popup.php image=sc80_0148  /folio/ever-present-square-six-red-1980  301!
+/popup.php image=pa69_0017  /folio/ex-a-1969-1969  301!
+/popup.php image=sc80_0151  /folio/frame-of-reference-34th-scale-1980  301!
+/popup.php image=wp02_0119  /folio/fly-by-lightjumper-2002  301!
+/popup.php image=pa88_0058  /folio/for-dan-diane-1988  301!
+/popup.php image=sc79_0020  /folio/frame-of-reference-30th-scale-1979  301!
+/popup.php image=pa70_0027  /folio/geewu-flecyon-1970-1970  301!
+/popup.php image=pa89_0059  /folio/giant-bluethroat-1989  301!
+/popup.php image=pa70_0031  /folio/grand-central-1970  301!
+/popup.php image=pa89_0060  /folio/greenbacked-firecrown-1989  301!
+/popup.php image=pa81_0043  /folio/group-formation-1981  301!
+/popup.php image=pa70_0026  /folio/hoywegg-1970-1970  301!
+/popup.php image=pa02_0070  /folio/hue-scrip-6vrc-2002  301!
+/popup.php image=sc80_0147  /folio/imago-ignota-1980  301!
+/popup.php image=pa82_0053  /folio/isospin-sidewise-1982  301!
+/popup.php image=pa71_0038  /folio/liquid-light-1971  301!
+/popup.php image=pa69_0019  /folio/mass-con-1969-1969  301!
+/popup.php image=pa69_0018  /folio/mass-con-2-1969  301!
+/popup.php image=pa69_0024  /folio/mem-69-detail-1969  301!
+/popup.php image=pa69_0023  /folio/mem-com-right-panel-1969  301!
+/popup.php image=pa69_0022  /folio/mem-com-left-panel-1969  301!
+/popup.php image=pa71_0035  /folio/mistressofrisk-1971  301!
+/popup.php image=pa71_0037  /folio/mizuno-gallery-l-a-installation-view-1971  301!
+/popup.php image=pa82_0057  /folio/motion-drama-1982  301!
+/popup.php image=pa87_0062  /folio/non-titled-1987-1987  301!
+/popup.php image=wp99_0127  /folio/non-titled-drawing-87-1987  301!
+/popup.php image=wp88_0050  /folio/non-titled-drawing-1988  301!
+/popup.php image=wp02_0126  /folio/non-titled-88-1988  301!
+/popup.php image=pa63_0013  /folio/out-of-space-1963  301!
+/popup.php image=wp97_0129  /folio/shadow-half-1994  301!
+/popup.php image=wp02_0130  /folio/stand-in-chiffre-iv-1994  301!
+/popup.php image=pa00_0110  /folio/not-a-figure-nor-the-stillness-of-life-gone-landscaping-1999  301!
+/popup.php image=pa93_0091  /folio/surface-space-refigured-1993  301!
+/popup.php image=bx02_0170  /folio/f-b-17-2002  301!
+/popup.php image=pa97_0199  /folio/adeu-hong-kong-1997  301!
+/popup.php image=pa93_0200  /folio/huespace-101093-amber-1993  301!
+/popup.php image=pa93_0201  /folio/huespace-102193-red-1993  301!
+/popup.php image=wp03_0179  /folio/010803-below-zero-2003  301!
+/popup.php image=wp03_0180  /folio/020103-re-entry-sts-107-2003  301!
+/popup.php image=wp03_0181  /folio/020503-020103-re-entry-2nd-state-2003  301!
+/popup.php image=wp03_0189  /folio/032803-vr-2003  301!
+/popup.php image=wp03_0188  /folio/032603-vr-2003  301!
+/popup.php image=wp03_0187  /folio/030703-hr-2003  301!
+/popup.php image=wp03_0198  /folio/030303-hr-2003  301!
+/popup.php image=wp03_0182  /folio/022603-sq-2003  301!
+/popup.php image=wp03_0184  /folio/022003-sq-2003  301!
+/popup.php image=wp03_0183  /folio/021503-sq-in-sight-out-2003  301!
+/popup.php image=wp03_0185  /folio/040703-vr-2003  301!
+/popup.php image=wp03_0186  /folio/040403-vr-2003  301!
+/popup.php image=wp03_0172  /folio/010703-from-1996-2003  301!
+/popup.php image=wp03_0173  /folio/010703-ii-2003  301!
+/popup.php image=wp03_0178  /folio/031302-tixit021103-2003  301!
+/popup.php image=wp00_0177  /folio/installation-study-for-double-door-wall-2000  301!
+/popup.php image=wp03_0194  /folio/01020103-bw-a-2003  301!
+/popup.php image=wp03_0195  /folio/01020103-bw-b-2003  301!
+/popup.php image=wp03_0196  /folio/01020103-bw-c-2003  301!
+/popup.php image=wp03_0197  /folio/01020103-bw-d-2003  301!
+/popup.php image=wp00_0174  /folio/sounds-off-duet-i-2000  301!
+/popup.php image=wp00_0175  /folio/sounds-off-duet-iii-2000  301!
+/popup.php image=wp00_0176  /folio/sounds-off-trio-2000  301!
+/popup.php image=wp96_0233  /folio/space-breaker-1996  301!
+/popup.php image=wp96_0232  /folio/symmetrical-abstraction-i-1996  301!
+/popup.php image=wp96_0234  /folio/water-to-wine-1996  301!
+/popup.php image=wp97_0226  /folio/collage-study-elaboration-of-invention-defiance-ii-1997  301!
+/popup.php image=wp97_0227  /folio/color-study-elaboration-of-invention-defiance-ii-1997  301!
+/popup.php image=wp97_0229  /folio/optasia-elaboration-study-1997  301!
+/popup.php image=wp97_0228  /folio/as-it-is-1997  301!
+/popup.php image=wp96_0230  /folio/symmetrical-abstraction-iii-1996  301!
+/popup.php image=wp96_0231  /folio/symmetrical-abstraction-ii-1996  301!
+/popup.php image=wp89_0238  /folio/co-ordinate-yvgrb-1989  301!
+/popup.php image=wp89_0239  /folio/tupos-relined-1989  301!
+/popup.php image=wp93_0222  /folio/au-contraire-un-1993  301!
+/popup.php image=wp93_0223  /folio/au-contraire-deux-1993  301!
+/popup.php image=wp93_0224  /folio/au-contraire-trois-1993  301!
+/popup.php image=wp87_0206  /folio/translation-1-1985  301!
+/popup.php image=wp87_0207  /folio/translation-iii-1985  301!
+/popup.php image=wp87_0208  /folio/translation-iv-1985  301!
+/popup.php image=wp87_0209  /folio/dialect-i-1987  301!
+/popup.php image=wp02_0210  /folio/dialect-iv-1985  301!
+/popup.php image=wp87_0211  /folio/dialect-vii-1985  301!
+/popup.php image=wp87_0204  /folio/red-allover-1-1985  301!
+/popup.php image=wp87_0205  /folio/red-allover-2-1985  301!
+/popup.php image=pa93_0202  /folio/encriptic-a-1993  301!
+/popup.php image=pa93_0203  /folio/encriptic-b-1993  301!
+/popup.php image=wp70_0212  /folio/in-circled-1969  301!
+/popup.php image=wp71_0213  /folio/in-warp-1971  301!
+/popup.php image=wp93_0236  /folio/colortoon-1993  301!
+/popup.php image=wp92_0235  /folio/04-jan-elliptical-shift-study-1992  301!
+/popup.php image=wp93_0237  /folio/for-a-painting-144-1993  301!
+/popup.php image=wp80_0241  /folio/illusion-of-similar-reference-1980  301!
+/popup.php image=wp80_0240  /folio/illusion-of-similar-reflection-1980  301!
+/popup.php image=wp95_0214  /folio/bws-p-b-1995  301!
+/popup.php image=wp95_0215  /folio/bws-p-c-1995  301!
+/popup.php image=wp96_0216  /folio/04apr1996bws-p-f-1996  301!
+/popup.php image=wp96_0217  /folio/aesthetic-warfare-continued-1996  301!
+/popup.php image=wp95_0221  /folio/over-above-1995  301!
+/popup.php image=wp95_0220  /folio/sight-jam-variant-2-1995  301!
+/popup.php image=wp95_0219  /folio/sight-jam-variant-3-1995  301!
+/popup.php image=wp95_0218  /folio/sight-jam-variant-4-1995  301!
+/popup.php image=wp94_0225  /folio/xx-b-minature-1994  301!
+/popup.php image=wp03_0190  /folio/wind-o-iii-2003  301!
+/popup.php image=wp03_0191  /folio/040803-sq-2003  301!
+/popup.php image=wp03_0192  /folio/fluoresq-01-2003  301!
+/popup.php image=wp03_0193  /folio/fluoresq-02-2003  301!
+/popup.php image=sc03_0152  /folio/21c3-debri-so-2003  301!
+/popup.php image=bx02_0169  /folio/functional-box-16-2002  301!
+/popup.php image=pa02_0112  /folio/hue-scrip-2vrc-2002  301!
+/popup.php image=pa02_0111  /folio/hue-scrip-4vrc-2002  301!
+/popup.php image=pa01_0109  /folio/hue-scrip-3sq-2001  301!
+/popup.php image=pa01_0140  /folio/hue-scrip-colorshift-sq-2001  301!
+/popup.php image=sc87_0116  /folio/prophetic-aesthetic-revision-frame-of-reference-1995  301!
+/popup.php image=pa97_0106  /folio/north-american-symmetrical-abstraction-1997  301!
+/popup.php image=pa94_0092  /folio/out-of-bounds-1993  301!
+/popup.php image=pa96_0101  /folio/off-the-blue-1996  301!
+/popup.php image=pa96_0097  /folio/optasia-i-1996  301!
+/popup.php image=pa96_0098  /folio/optasia-ii-1996  301!
+/popup.php image=pa96_0139  /folio/rendezvous-1996  301!
+/popup.php image=pa87_0056  /folio/refiguration-1-1987  301!
+/popup.php image=pa87_0087  /folio/non-titled-refiguration-1987  301!
+/popup.php image=pa87_0004  /folio/before-your-face-1987  301!
+/popup.php image=pa92_0087  /folio/eliptical-shift-1-1992  301!
+/popup.php image=pa92_0088  /folio/eliptical-shift-2-1992  301!
+/popup.php image=pa92_0090  /folio/unknown-2-1992  301!
+/popup.php image=pa92_0089  /folio/unknown-1-1992  301!
+/popup.php image=pa96_0099  /folio/optasia-dix-1996  301!
+/popup.php image=pa96_0100  /folio/optasia-pichots-boat-1996  301!
+/popup.php image=pa97_0118  /folio/elaboration-of-invention-defiance-1997  301!
+/popup.php image=pa87_0065  /folio/unknown-knowing-1987  301!
+/popup.php image=pa91_0082  /folio/detail-detail-1991  301!
+/popup.php image=pa95_0138  /folio/so-see-1995  301!
+/popup.php image=wp02_0107  /folio/shadow-play-2002  301!
+/popup.php image=pa96_0102  /folio/significant-singular-i-1996  301!
+/popup.php image=pa96_0103  /folio/significant-singular-ii-1996  301!
+/popup.php image=pa95_0096  /folio/2-t-squared-1995  301!
+/popup.php image=pa91_0081  /folio/summer-tropic-ii-1991  301!
+/popup.php image=pa91_0080  /folio/summer-tropic-i-1991  301!
+/popup.php image=pa91_0083  /folio/detail-1991  301!
+/popup.php image=pa94_0095  /folio/high-pinx-1994  301!
+/popup.php image=pa95_0136  /folio/sight-so-1995  301!
+/popup.php image=pa94_0094  /folio/5-4-jam-b-1994  301!
+/popup.php image=pa94_0093  /folio/5-4-jam-a-1994  301!
+/popup.php image=pa02_0113  /folio/hue-scrip-7sq-2002  301!
+/popup.php image=pa02_0117  /folio/hue-scrip-8sq-2002  301!
+/popup.php image=bx00_0167  /folio/functional-box-14-2000  301!
+/popup.php image=bx01_0165  /folio/functional-box-12-2001  301!
+/popup.php image=wp02_0131  /folio/hue-scrip-blue-shift-edition-of-2-2002  301!
+/popup.php image=wp02_0132  /folio/optical-bop-one-2002  301!
+/popup.php image=wp02_0135  /folio/momboptic-d-1-2002  301!
+/popup.php image=sc02_0114  /folio/nu-zip-2002  301!
+/popup.php image=sc01_0108  /folio/narrow-depth-mmi-2001  301!
+/popup.php image=bx01_0171  /folio/f-b-18-2001  301!
+/popup.php image=bx99_0166  /folio/functional-box-13-1999  301!
+/popup.php image=bx01_0164  /folio/functional-box-11-2001  301!
+/popup.php image=bx99_0168  /folio/functional-box-15-1999  301!
+/popup.php image=bx00_0162  /folio/blue-square-box-2000  301!
+/popup.php image=bx01_0163  /folio/functional-box-10-2001  301!
+/popup.php image=bx99_0161  /folio/functional-box-8-1999  301!
+/popup.php image=bx99_0160  /folio/double-stack-box-1999  301!
+/popup.php image=bx98_0159  /folio/blue-heart-box-1998  301!
+/popup.php image=bx88_0158  /folio/functional-box-5-1998  301!
+/popup.php image=bx99_0157  /folio/7-sided-box-1999  301!
+/popup.php image=bx01_0156  /folio/functional-box-c-iii-2001  301!
+/popup.php image=pa89_0063  /folio/painting-1989-1989  301!
+/popup.php image=pa02_0010  /folio/round-angle-blueshift-2002  301!
+/popup.php image=pa99_0137  /folio/one-square-foot-dance-step-1994  301!
+/popup.php image=pa02_0115  /folio/round-angle-v-b-2002  301!
+/popup.php image=pa96_0105  /folio/looks-like-it-1996  301!
+/popup.php image=wp67_0124  /folio/tonal-ii-1967  301!
+/popup.php image=wp67_0125  /folio/tonal-iii-1967  301!
+/popup.php image=wp66_0122  /folio/flotation-1966  301!
+/popup.php image=wp66_0123  /folio/tonal-oo-1966  301!
+/popup.php image=wp02_0133  /folio/momboptic-shuffle-one-2002  301!
+/popup.php image=wp02_0134  /folio/momboptic-shuffle-two-2002  301!
+/popup.php image=bx02_0153  /folio/functional-box-a1-2002  301!
+/popup.php image=bx02_0155  /folio/functional-box-b-ii-2002  301!
+/popup.php image=pa91_0085  /folio/peters-neck-point-1991  301!
+/popup.php image=pa87_0064  /folio/pink-highlight-1987  301!
+/popup.php image=pa92_0086  /folio/poolside-1992  301!
+/popup.php image=pa82_0075  /folio/potential-difference-1982  301!
+/popup.php image=pa82_0073  /folio/power-of-seeing-1982  301!
+/popup.php image=pa82_0074  /folio/power-of-suggestion-1981  301!
+/popup.php image=in78_0007  /folio/reflected-illusion-squared-1976  301!
+/popup.php image=sc80_0149  /folio/reverse-reference-grounded-model-1980  301!
+/popup.php image=sc77_0016  /folio/reflected-sky-horizon-window-1977  301!
+/popup.php image=pa70_0032  /folio/sassaloon-70-1970  301!
+/popup.php image=pa81_0005  /folio/scintillator-1981  301!
+/popup.php image=pa87_0066  /folio/serpent-treader-1987  301!
+/popup.php image=sc87_0150  /folio/skywatcher-3-model-1981  301!
+/popup.php image=pa82_0071  /folio/spectra-1982  301!
+/popup.php image=sc02_0120  /folio/split-shift-vertical-detail-1-top-2002  301!
+/popup.php image=sc73_0039  /folio/standing-act-1973  301!
+/popup.php image=sc87_0142  /folio/suspended-vertical-1981  301!
+/popup.php image=sc80_0145  /folio/ten-degree-slant-f-o-r-40th-scale-1980  301!
+/popup.php image=pa81_0047  /folio/thrust-buster-1981  301!
+/popup.php image=in72_0021  /folio/tua-jewel-1972  301!
+/popup.php image=pa89_0067  /folio/tupos-1989  301!
+/popup.php image=pa87_0068  /folio/utterance-1987  301!
+/popup.php image=pa88_0069  /folio/utterance-ii-1988  301!
+/popup.php image=pa71_0034  /folio/v-g-1971  301!
+/popup.php image=wp87_0128  /folio/waterwalker-two-1993  301!
+/popup.php image=pa81_0042  /folio/what-scale-1981  301!
+/popup.php image=pa71_0036  /folio/whos-question-1971  301!
+/popup.php image=pa82_0072  /folio/winds-of-asymmetry-1982  301!
+/popup.php image=pa87_0078  /folio/zabdiel-5-1987  301!
+/popup.php image=pa87_0079  /folio/zabdiel-6-1987  301!
+/popup.php image=pa87_0076  /folio/zabdiel-3-1987  301!
+/popup.php image=pa87_0077  /folio/zabdiel-4-1987  301!
+/popup.php image=pa70_0033  /folio/zopen-1970  301!
