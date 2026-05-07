@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+
+const links = [
+  { name: 'Larry Bell', url: 'https://www.larrybell.com' },
+  { name: 'Ned Evans', url: 'https://www.nedevans.com' },
+  { name: 'Gus Foster', url: 'https://www.gusfoster.com' },
+  { name: 'James Wrinkle', url: 'https://www.jameswrinkle.com' },
+  { name: 'Abstract Art', url: 'https://www.abstract-art.com' },
+  { name: 'Charles Arnoldi Studio', url: 'https://www.charlesarnoldistudio.com/' },
+  { name: 'Raul Guerrero', url: 'https://www.raulguerrero.com' },
+  { name: 'Dennis Hollingsworth', url: 'https://www.dennishollingsworth.us/' },
+  { name: 'Mons Mart', url: 'https://www.monsmart.com' },
+];
+---
+<Base title="Links" current="links" description="Peer artists referenced from the original gregcard.com.">
+  <article class="prose">
+    <h1>Links</h1>
+    <p class="muted">Peer artists, preserved from the original site.</p>
+    <ul class="links-list">
+      {links.map((l) => (
+        <li><a href={l.url} rel="noopener">{l.name}</a></li>
+      ))}
+    </ul>
+  </article>
+</Base>
+
+<style>
+  .prose { max-width: var(--max-width-prose); margin: 0 auto; }
+  .links-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-4) 0;
+  }
+  .links-list li {
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .links-list a {
+    text-decoration: none;
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+  }
+  .links-list a:hover { color: var(--accent); }
+</style>

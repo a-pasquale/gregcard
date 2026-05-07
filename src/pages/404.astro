@@ -1,0 +1,13 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Page not found" description="That page doesn't exist on the archive.">
+  <article class="prose">
+    <h1>Not found</h1>
+    <p>That page isn't here. Try the <a href="/folio">folio</a> or the <a href="/">home page</a>.</p>
+  </article>
+</Base>
+
+<style>
+  .prose { max-width: var(--max-width-prose); margin: 0 auto; }
+</style>
