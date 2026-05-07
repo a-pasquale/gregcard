@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import FolioCard from '../../components/FolioCard.astro';
+import FilterPills from '../../components/FilterPills.astro';
+import { getAllWorks, groupByDecade } from '../../lib/folio';
+
+const all = getAllWorks();
+const groups = groupByDecade(all);
+---
+<Base
+  title="Folio"
+  current="folio"
+  description={`${all.length} works · 1963–2003 · paintings, paper, sculpture, boxes, installations.`}
+>
+  <header class="folio-header">
+    <h1>Folio</h1>
+    <p class="muted">{all.length} works · 1963–2003</p>
+  </header>
+
+  <FilterPills />
+
+  <div class="folio-grid" data-active-medium="all">
+    {groups.map((g) => (
+      <section class="decade-section" id={g.label}>
+        <h2 class="decade-heading"><span class="label">{g.label}</span></h2>
+        <div class="decade-grid">
+          {g.works.map((w) => <FolioCard work={w} />)}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .folio-header { margin-bottom: var(--space-4); }
+  .folio-header h1 { margin-bottom: var(--space-1); }
+
+  .decade-section { margin-bottom: var(--space-6); }
+  .decade-heading {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: var(--space-3) 0 var(--space-2);
+    margin: 0 0 var(--space-3);
+    border-bottom: 1px solid var(--rule);
+    z-index: 1;
+  }
+  .decade-heading .label { font-size: 0.875rem; }
+
+  .decade-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+  @media (min-width: 640px) {
+    .decade-grid { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .decade-grid { grid-template-columns: repeat(4, 1fr); }
+  }
+  @media (min-width: 1100px) {
+    .decade-grid { grid-template-columns: repeat(5, 1fr); }
+  }
+</style>

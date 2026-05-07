@@ -1,0 +1,78 @@
+---
+import { MEDIA } from '../lib/folio';
+---
+<div class="filter-pills" role="group" aria-label="Filter by medium">
+  <button type="button" class="pill" data-medium="all" aria-pressed="true">All</button>
+  {MEDIA.map((m) => (
+    <button type="button" class="pill" data-medium={m} aria-pressed="false">
+      {m.charAt(0).toUpperCase() + m.slice(1)}
+    </button>
+  ))}
+</div>
+
+<script>
+  const root = document.querySelector('.folio-grid') as HTMLElement | null;
+  const pills = document.querySelectorAll<HTMLButtonElement>('.filter-pills .pill');
+
+  function recomputeEmptySections() {
+    document.querySelectorAll<HTMLElement>('.decade-section').forEach((sec) => {
+      const visible = sec.querySelectorAll('.folio-card:not([hidden])').length;
+      sec.hidden = visible === 0;
+    });
+  }
+
+  function applyFilter(medium: string) {
+    if (!root) return;
+    root.dataset.activeMedium = medium;
+    pills.forEach((p) => p.setAttribute('aria-pressed', String(p.dataset.medium === medium)));
+    document.querySelectorAll<HTMLElement>('.folio-card').forEach((card) => {
+      const matches = medium === 'all' || card.dataset.medium === medium;
+      card.hidden = !matches;
+    });
+    recomputeEmptySections();
+  }
+
+  pills.forEach((p) => {
+    p.addEventListener('click', () => applyFilter(p.dataset.medium ?? 'all'));
+  });
+
+  // Honor legacy ?media=... query coming from /folio.php redirect
+  const params = new URLSearchParams(window.location.search);
+  const legacy = params.get('media');
+  if (legacy && Array.from(pills).some((p) => p.dataset.medium === legacy)) {
+    applyFilter(legacy);
+  }
+  // And ?decade=... → scroll to anchor
+  const decade = params.get('decade');
+  if (decade) {
+    const decLabel = decade === '0' ? '2000s' : `19${decade}s`;
+    const target = document.getElementById(decLabel);
+    if (target) target.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
+</script>
+
+<style>
+  .filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-5);
+  }
+  .pill {
+    background: transparent;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font: inherit;
+    font-size: 0.8125rem;
+    color: var(--muted);
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+  }
+  .pill:hover { color: var(--text); border-color: var(--accent); }
+  .pill[aria-pressed='true'] {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--bg);
+  }
+</style>
