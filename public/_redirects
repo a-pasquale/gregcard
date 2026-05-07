@@ -1,29 +1,26 @@
-# Static page renames
-/intro.html                 /intro                301
-/biog_bibl.html             /bibliography         301
-/biog_solo.html             /biography#solo       301
-/biog_grou.html             /biography#group      301
-/biog_awar.html             /biography#awards     301
-/biog_lect.html             /biography#lectures   301
-/biog_coll.html             /biography#collections 301
-/writeon.html               /writings             301
-/1999.html                  /writings/1999        301
-/acts_of_art.html           /writings/acts-of-art 301
-/adventures.html            /writings/adventures-in-actual-abstraction 301
-/notes_of_engagement.html   /writings/notes-on-engagement 301
-/statement.html             /writings/statement   301
-/links.html                 /links                301
-/contact.html               /contact              301
-/index.htm                  /                     301
+# Static page renames (force: win over shadowing static files)
+/intro.html                 /intro                301!
+/biog_bibl.html             /bibliography         301!
+/biog_solo.html             /biography#solo       301!
+/biog_grou.html             /biography#group      301!
+/biog_awar.html             /biography#awards     301!
+/biog_lect.html             /biography#lectures   301!
+/biog_coll.html             /biography#collections 301!
+/writeon.html               /writings             301!
+/1999.html                  /writings/1999        301!
+/acts_of_art.html           /writings/acts-of-art 301!
+/adventures.html            /writings/adventures-in-actual-abstraction 301!
+/notes_of_engagement.html   /writings/notes-on-engagement 301!
+/statement.html             /writings/statement   301!
+/links.html                 /links                301!
+/contact.html               /contact              301!
+/index.htm                  /                     301!
 
 # PHP folio (no query string preserved — handled by client-side script on /folio)
-/folio.php                  /folio                301
-/folioBU.php                /folio                301
+/folio.php                  /folio                301!
+/folioBU.php                /folio                301!
 
-# popup.php with no query — fallback to folio
-/popup.php                  /folio                301
-
-# Per-work popup.php redirects (image_root → slug)
+# Per-work popup.php redirects (image_root → slug). MUST come before the catch-all below.
 /popup.php image=in68_0029  /folio/all-airline-everything-two-cylinder-paintings-shown-1968  301!
 /popup.php image=sc80_0146  /folio/2-side-slant-1980  301!
 /popup.php image=pa96_0141  /folio/above-beyond-1996  301!
@@ -252,3 +249,6 @@
 /popup.php image=pa87_0076  /folio/zabdiel-3-1987  301!
 /popup.php image=pa87_0077  /folio/zabdiel-4-1987  301!
 /popup.php image=pa70_0033  /folio/zopen-1970  301!
+
+# popup.php with no matching image — fallback to folio
+/popup.php                  /folio                301!
