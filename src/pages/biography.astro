@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+import biography from '../data/biography.json';
+
+type Entry = { year: string | null; text: string };
+type Sections = Record<string, Entry[]>;
+
+const SECTIONS = [
+  { key: 'solo',        anchor: 'solo',        heading: 'Solo Exhibitions' },
+  { key: 'group',       anchor: 'group',       heading: 'Group Exhibitions' },
+  { key: 'awards',      anchor: 'awards',      heading: 'Awards & Grants' },
+  { key: 'lectures',    anchor: 'lectures',    heading: 'Lectures' },
+  { key: 'collections', anchor: 'collections', heading: 'Collections' },
+];
+
+const sections = biography.sections as unknown as Sections;
+---
+<Base
+  title="Biography"
+  current="biography"
+  description="Greg Card — biographical record: exhibitions, awards, lectures, collections."
+>
+  <article class="biography prose">
+    <h1>Biography</h1>
+    {biography.narrative ? (
+      <p class="lead">{biography.narrative}</p>
+    ) : (
+      <p class="lead muted">A narrative paragraph synthesized from the records below is forthcoming.</p>
+    )}
+
+    {SECTIONS.map((s) => (
+      <section id={s.anchor}>
+        <h2>{s.heading}</h2>
+        <ul class="entries">
+          {sections[s.key].map((entry: Entry) => (
+            <li class="entry">
+              {entry.year && <span class="year">{entry.year}</span>}
+              <span class="content">
+                {entry.text.split('\n').map((line: string, i: number) => (
+                  <>{i > 0 && <br />}{line}</>
+                ))}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </article>
+</Base>
+
+<style>
+  .prose {
+    max-width: var(--max-width-prose);
+    margin: 0 auto;
+  }
+
+  .lead {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+  }
+
+  section {
+    margin-top: var(--space-6);
+  }
+
+  section h2 {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: var(--space-2);
+    margin-bottom: var(--space-3);
+  }
+
+  .entries {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 0 var(--space-3);
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 0.9375rem;
+    align-items: baseline;
+  }
+
+  .year {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  /* When there is no year, content spans both columns */
+  .entry:not(:has(.year)) .content {
+    grid-column: 1 / -1;
+  }
+
+  .content {
+    line-height: 1.5;
+  }
+
+  @media (max-width: 500px) {
+    .entry {
+      grid-template-columns: 1fr;
+      gap: var(--space-1);
+    }
+  }
+</style>

@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import bibliography from '../data/bibliography.json';
+---
+<Base
+  title="Bibliography"
+  current="bibliography"
+  description="Critical writings about Greg Card's work, 1968–2002."
+>
+  <article class="prose">
+    <h1>Bibliography</h1>
+    <p class="muted">Critical writings about the work, 1968–2002.</p>
+    <ul class="entries">
+      {bibliography.entries.map((entry) => (
+        <li class="entry">
+          {entry.year && <span class="year">{entry.year}</span>}
+          <span class="content">{entry.text}</span>
+        </li>
+      ))}
+    </ul>
+  </article>
+</Base>
+
+<style>
+  .prose {
+    max-width: var(--max-width-prose);
+    margin: 0 auto;
+  }
+
+  .entries {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-4) 0;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    gap: 0 var(--space-3);
+    padding: var(--space-2) 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 0.9375rem;
+    align-items: baseline;
+  }
+
+  .year {
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  /* When there is no year, content spans both columns */
+  .entry:not(:has(.year)) .content {
+    grid-column: 1 / -1;
+  }
+
+  .content {
+    line-height: 1.5;
+  }
+
+  @media (max-width: 500px) {
+    .entry {
+      grid-template-columns: 1fr;
+      gap: var(--space-1);
+    }
+  }
+</style>
