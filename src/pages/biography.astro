@@ -22,29 +22,29 @@ const sections = biography.sections as unknown as Sections;
 >
   <article class="biography prose">
     <h1>Biography</h1>
-    {biography.narrative ? (
-      <p class="lead">{biography.narrative}</p>
-    ) : (
-      <p class="lead muted">A narrative paragraph synthesized from the records below is forthcoming.</p>
-    )}
+    {biography.narrative && <p class="lead">{biography.narrative}</p>}
 
-    {SECTIONS.map((s) => (
-      <section id={s.anchor}>
-        <h2>{s.heading}</h2>
-        <ul class="entries">
-          {sections[s.key].map((entry: Entry) => (
-            <li class="entry">
-              {entry.year && <span class="year">{entry.year}</span>}
-              <span class="content">
-                {entry.text.split('\n').map((line: string, i: number) => (
-                  <>{i > 0 && <br />}{line}</>
-                ))}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
-    ))}
+    {SECTIONS.map((s) => {
+      const entries = sections[s.key];
+      const hasAnyYears = entries.some((e) => e.year);
+      return (
+        <section id={s.anchor}>
+          <h2>{s.heading}</h2>
+          <ul class={hasAnyYears ? 'entries' : 'entries entries--undated'}>
+            {entries.map((entry: Entry) => (
+              <li class={entry.year ? 'entry' : 'entry entry--continuation'}>
+                {hasAnyYears && <span class="year">{entry.year ?? ''}</span>}
+                <span class="content">
+                  {entry.text.split('\n').map((line: string, i: number) => (
+                    <>{i > 0 && <br />}{line}</>
+                  ))}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      );
+    })}
   </article>
 </Base>
 
@@ -84,6 +84,10 @@ const sections = biography.sections as unknown as Sections;
     font-size: 0.9375rem;
     align-items: baseline;
   }
+  /* Undated sections (e.g., Collections) render content full-width. */
+  .entries--undated .entry {
+    grid-template-columns: 1fr;
+  }
 
   .year {
     font-variant-numeric: tabular-nums;
@@ -92,9 +96,15 @@ const sections = biography.sections as unknown as Sections;
     white-space: nowrap;
   }
 
-  /* When there is no year, content spans both columns */
-  .entry:not(:has(.year)) .content {
-    grid-column: 1 / -1;
+  /* Continuations of the prior year: empty year cell keeps the content aligned
+     in column 2, and softer spacing groups them visually with the prior entry. */
+  .entry--continuation {
+    padding-top: var(--space-1);
+    margin-top: calc(-1 * var(--space-1));
+  }
+  /* Hide the rule between an entry and any continuation that follows. */
+  .entry:has(+ .entry--continuation) {
+    border-bottom-color: transparent;
   }
 
   .content {

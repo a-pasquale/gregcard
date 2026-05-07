@@ -12,8 +12,8 @@ import bibliography from '../data/bibliography.json';
     <p class="muted">Critical writings about the work, 1968–2002.</p>
     <ul class="entries">
       {bibliography.entries.map((entry) => (
-        <li class="entry">
-          {entry.year && <span class="year">{entry.year}</span>}
+        <li class={entry.year ? 'entry' : 'entry entry--continuation'}>
+          <span class="year">{entry.year ?? ''}</span>
           <span class="content">{entry.text}</span>
         </li>
       ))}
@@ -50,9 +50,13 @@ import bibliography from '../data/bibliography.json';
     white-space: nowrap;
   }
 
-  /* When there is no year, content spans both columns */
-  .entry:not(:has(.year)) .content {
-    grid-column: 1 / -1;
+  /* Continuation entries (no year) keep content aligned in column 2. */
+  .entry--continuation {
+    padding-top: var(--space-1);
+    margin-top: calc(-1 * var(--space-1));
+  }
+  .entry:has(+ .entry--continuation) {
+    border-bottom-color: transparent;
   }
 
   .content {
