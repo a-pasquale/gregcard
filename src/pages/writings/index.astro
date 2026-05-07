@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const all = await getCollection('writings');
+all.sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="Writings" current="writings" description="Essays by Greg Card on his practice and abstraction.">
+  <article class="prose">
+    <h1>Writings</h1>
+    <p class="muted">Essays by Greg Card on his practice and on abstraction.</p>
+    <ul class="essays">
+      {all.map((e) => (
+        <li>
+          <a href={`/writings/${e.slug}`}>
+            <h2>{e.data.title}</h2>
+            <p class="muted">{e.data.description}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </article>
+</Base>
+
+<style>
+  .prose { max-width: var(--max-width-prose); margin: 0 auto; }
+  .essays { list-style: none; padding: 0; margin: var(--space-5) 0; }
+  .essays li {
+    padding: var(--space-4) 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .essays a { text-decoration: none; display: block; }
+  .essays h2 { font-size: 1.375rem; margin-bottom: var(--space-1); }
+  .essays a:hover h2 { color: var(--accent); }
+  .essays p { margin: 0; font-size: 0.9375rem; }
+</style>

@@ -1,0 +1,59 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+export async function getStaticPaths() {
+  const all = await getCollection('writings');
+  return all.map((e) => ({ params: { slug: e.slug }, props: { entry: e } }));
+}
+
+interface Props { entry: CollectionEntry<'writings'>; }
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+const all = await getCollection('writings');
+all.sort((a, b) => a.data.order - b.data.order);
+const idx = all.findIndex((e) => e.slug === entry.slug);
+const prev = idx > 0 ? all[idx - 1] : null;
+const next = idx < all.length - 1 ? all[idx + 1] : null;
+---
+<Base
+  title={entry.data.title}
+  description={entry.data.description ?? `Essay by Greg Card: ${entry.data.title}.`}
+  current="writings"
+>
+  <article class="essay prose">
+    <header>
+      <h1>{entry.data.title}</h1>
+    </header>
+    <div class="essay-body">
+      <Content />
+    </div>
+    <nav class="prev-next" aria-label="Adjacent essays">
+      {prev ? <a href={`/writings/${prev.slug}`} rel="prev">← {prev.data.title}</a> : <span />}
+      {next ? <a href={`/writings/${next.slug}`} rel="next">{next.data.title} →</a> : <span />}
+    </nav>
+  </article>
+</Base>
+
+<style>
+  .prose { max-width: var(--max-width-prose); margin: 0 auto; }
+  .essay h1 { font-style: italic; margin-bottom: var(--space-5); }
+  .essay-body :global(p) {
+    font-family: var(--font-serif);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    margin-bottom: var(--space-3);
+  }
+  .prev-next {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-3);
+    margin-top: var(--space-6);
+    padding: var(--space-4) 0;
+    border-top: 1px solid var(--rule);
+    font-size: 0.875rem;
+  }
+  .prev-next a { text-decoration: none; color: var(--muted); }
+  .prev-next a:hover { color: var(--text); }
+</style>
