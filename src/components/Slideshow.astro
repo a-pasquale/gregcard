@@ -1,0 +1,94 @@
+---
+import { getWorkBySlug } from '../lib/folio';
+
+// Greg's 12 hand-picked slideshow works from the original site (art1.jpg–art12.jpg
+// matched to folio entries by perceptual hash). Same selection, now linkable to
+// the work pages and rendered from the higher-resolution renditions.
+const SLIDESHOW_SLUGS = [
+  'out-of-space-1963',
+  'round-angle-v-b-2002',
+  'not-a-figure-nor-the-stillness-of-life-gone-landscaping-1999',
+  '01020103-bw-c-2003',
+  'mem-com-left-panel-1969',
+  'ex-a-1969-1969',
+  'reverse-reference-grounded-model-1980',
+  'delandes-plovercrest-1989',
+  'hue-scrip-8sq-2002',
+  'xx-b-minature-1994',
+  'nu-zip-2002',
+  'suspended-vertical-1981',
+];
+
+const slides = SLIDESHOW_SLUGS.map((slug) => {
+  const work = getWorkBySlug(slug);
+  if (!work) throw new Error(`slideshow slug not found in folio: ${slug}`);
+  return work;
+});
+
+const total = slides.length;
+const slideSeconds = 4;
+const loop = total * slideSeconds; // 48s
+---
+<div class="slideshow" aria-label="Selected works">
+  {slides.map((w, i) => (
+    <a
+      href={`/folio/${w.slug}`}
+      class="slide"
+      style={`animation-delay: ${i * slideSeconds}s;`}
+      aria-label={`${w.title} (${w.year}), ${w.medium}`}
+    >
+      <img
+        src={`/images/small/${w.image_root}sml.jpg`}
+        width={w.small.width}
+        height={w.small.height}
+        alt={`${w.title} (${w.year}), ${w.medium}`}
+        loading={i === 0 ? 'eager' : 'lazy'}
+        decoding="async"
+      />
+    </a>
+  ))}
+</div>
+
+<style define:vars={{ loopDuration: `${loop}s` }}>
+  .slideshow {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    aspect-ratio: 1;
+    overflow: hidden;
+    background: var(--bg);
+    justify-self: center;
+  }
+  .slide {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: slide-fade var(--loopDuration) linear infinite;
+    text-decoration: none;
+  }
+  .slide img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* 12 slides × 4s = 48s loop. Each slide is opaque for ~8.33% of the loop
+     (4s) with a 1.5% (~0.7s) fade in/out at the boundaries. */
+  @keyframes slide-fade {
+    0%      { opacity: 0; }
+    1.5%    { opacity: 1; }
+    8.333%  { opacity: 1; }
+    9.833%  { opacity: 0; }
+    100%    { opacity: 0; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .slide { animation: none; }
+    .slide:first-child { opacity: 1; }
+  }
+</style>

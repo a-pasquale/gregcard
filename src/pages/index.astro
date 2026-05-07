@@ -1,49 +1,56 @@
 ---
 import Base from '../layouts/Base.astro';
-import FolioCard from '../components/FolioCard.astro';
-import { getFeaturedWorks } from '../lib/folio';
-
-const featured = getFeaturedWorks();
+import Slideshow from '../components/Slideshow.astro';
 ---
 <Base title="Greg Card" current="home" description="Greg Card · contemporary abstractions, 1963–2003.">
   <section class="hero">
-    <img
-      class="hero-wordmark"
-      src="/brand/contempAbs.gif"
-      width="651"
-      height="82"
-      alt="Contemporary Abstraction"
-    />
-    <h1>Greg Card</h1>
-    <p class="meta muted">1963–2003 · paintings, paper, sculpture, boxes, installations</p>
-    <p class="lead">
-      An archive of forty years of work. Browse the <a href="/folio">folio</a>,
-      read the artist's <a href="/intro">intro</a>, or explore the
-      <a href="/writings">writings</a>.
-    </p>
+    <div class="hero-text">
+      <h1>Greg Card</h1>
+      <p class="meta muted">1963–2003 · paintings, paper, sculpture, boxes, installations</p>
+      <p class="lead">
+        An archive of forty years of work. Browse the <a href="/folio">folio</a>,
+        read the artist's <a href="/intro">intro</a>, or explore the
+        <a href="/writings">write on</a>.
+      </p>
+      <img
+        class="hero-wordmark"
+        src="/brand/contempAbs.gif"
+        width="651"
+        height="82"
+        alt="Contemporary Abstraction"
+      />
+      <script>
+        // Force the wordmark animation to restart on every page load by appending
+        // a unique query string. Without this, browsers reuse the cached GIF and
+        // the animation would only play through once across the whole session.
+        document.querySelectorAll('img.hero-wordmark').forEach((img) => {
+          const src = img.getAttribute('src');
+          if (src) img.setAttribute('src', src + '?t=' + Date.now());
+        });
+      </script>
+    </div>
+    <Slideshow />
   </section>
-
-  {featured.length > 0 && (
-    <section class="featured">
-      <h2 class="label">Featured</h2>
-      <div class="featured-grid">
-        {featured.map((w) => <FolioCard work={w} />)}
-      </div>
-    </section>
-  )}
 </Base>
 
 <style>
   .hero {
-    padding: var(--space-6) 0 var(--space-5);
-    max-width: var(--max-width-prose);
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 480px);
+    gap: var(--space-4);
+    align-items: start;
   }
+  .hero-text {
+    max-width: 60ch;
+  }
+  .hero-text h1 { margin-top: 0; }
   .hero-wordmark {
     width: 100%;
     height: auto;
     max-width: 651px;
     display: block;
-    margin: 0 0 var(--space-4);
+    margin: var(--space-5) 0 0;
   }
   .hero h1 { margin: var(--space-2) 0; font-size: 3rem; }
   .hero .meta { font-size: 0.9375rem; }
@@ -53,12 +60,11 @@ const featured = getFeaturedWorks();
     margin-top: var(--space-4);
   }
 
-  .featured { margin-top: var(--space-6); }
-  .featured-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--space-4);
-    margin-top: var(--space-3);
-    max-width: 700px;
+  /* On narrow viewports, stack the columns. */
+  @media (max-width: 800px) {
+    .hero {
+      grid-template-columns: 1fr;
+      gap: var(--space-4);
+    }
   }
 </style>

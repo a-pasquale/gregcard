@@ -5,9 +5,9 @@ import { getCollection } from 'astro:content';
 const all = await getCollection('writings');
 all.sort((a, b) => a.data.order - b.data.order);
 ---
-<Base title="Writings" current="writings" description="Essays by Greg Card on his practice and abstraction.">
+<Base title="Write On" current="writings" description="Essays by Greg Card on his practice and abstraction.">
   <article class="prose">
-    <h1>Writings</h1>
+    <h1>Write On</h1>
     <p class="muted">Essays by Greg Card on his practice and on abstraction.</p>
     <ul class="essays">
       {all.map((e) => (
