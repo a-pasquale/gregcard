@@ -20,7 +20,9 @@ const {
 } = Astro.props;
 
 const fullTitle = title === 'Greg Card' ? title : `${title} — Greg Card`;
-const canonical = new URL(Astro.url.pathname, Astro.site).toString();
+// Astro's `format: 'file'` mode emits .html in pathname; strip for clean canonical URLs.
+const cleanPath = Astro.url.pathname.replace(/\.html$/, '').replace(/\/index$/, '/');
+const canonical = new URL(cleanPath, Astro.site).toString();
 ---
 <!DOCTYPE html>
 <html lang="en">
