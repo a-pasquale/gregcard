@@ -1215,7 +1215,8 @@
       "width": 358,
       "height": 500
     },
-    "available": true
+    "available": true,
+    "featured": true
   },
   {
     "id": 59,
@@ -1236,7 +1237,8 @@
       "width": 668,
       "height": 500
     },
-    "available": true
+    "available": true,
+    "featured": true
   },
   {
     "id": 60,

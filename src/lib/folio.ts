@@ -16,6 +16,7 @@ export interface Work {
   small: { width: number; height: number };
   large: { width: number; height: number };
   available: boolean;
+  featured?: boolean;
 }
 
 const ALL: Work[] = folio as Work[];
@@ -47,6 +48,10 @@ export function getRelatedWorks(work: Work, limit = 4): Work[] {
     (w) => w.id !== work.id && w.medium === work.medium && w.decade !== work.decade
   );
   return [...sameBoth, ...sameMedium].slice(0, limit);
+}
+
+export function getFeaturedWorks(): Work[] {
+  return ALL.filter((w) => w.featured === true);
 }
 
 export function sortChronological(works: Work[]): Work[] {
