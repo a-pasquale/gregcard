@@ -12,7 +12,9 @@ const links = [
 ];
 ---
 <nav class="site-nav" aria-label="Primary">
-  <a class="brand" href="/">Greg Card</a>
+  <a class="brand" href="/" aria-label="Greg S. Card — home">
+    <img src="/brand/logo-clean.png" width="240" height="180" alt="Greg S. Card" />
+  </a>
   <ul>
     {links.filter((l) => l.key !== 'home').map((l) => (
       <li><a href={l.href} aria-current={current === l.key ? 'page' : undefined}>{l.label}</a></li>
@@ -24,16 +26,21 @@ const links = [
   .site-nav {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     gap: var(--space-3) var(--space-5);
     padding: var(--space-4) 0;
     border-bottom: 1px solid var(--rule);
     margin-bottom: var(--space-5);
   }
   .brand {
-    font-family: var(--font-serif);
-    font-size: 1.25rem;
+    display: inline-block;
+    line-height: 0;
     text-decoration: none;
+  }
+  .brand img {
+    width: auto;
+    height: 96px;
+    display: block;
   }
   .site-nav ul {
     list-style: none;
