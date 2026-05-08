@@ -12,6 +12,11 @@ import Base from '../layouts/Base.astro';
     <p>By design the volume of images is too great to be fully appreciated in your initial visit, as such I suggest looking again and again as one would do with a picture book or exhibition catalog.</p>
     <p class="signoff">This is a beginning – change follows.</p>
     <p class="signature">g s c<br /><span class="muted">July, 2003</span></p>
+    <hr />
+    <p class="postscript muted">
+      This site preserves the body of work from 1963–2003.
+      For work made since, visit <a href="https://www.gregcard2.com" rel="noopener">gregcard2.com</a>.
+    </p>
   </article>
 </Base>
 
@@ -27,4 +32,10 @@ import Base from '../layouts/Base.astro';
   .prose p { font-size: 1.0625rem; }
   .signoff { font-style: italic; margin-top: var(--space-5); }
   .signature { margin-top: var(--space-4); font-family: var(--font-serif); }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: var(--space-6) 0 var(--space-4);
+  }
+  .postscript { font-size: 0.9375rem; }
 </style>
